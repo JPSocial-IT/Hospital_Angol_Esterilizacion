@@ -1,0 +1,238 @@
+CRITICAL - 2022-09-26 10:50:12 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated
+in APPPATH\Controllers\MA_estado_solicitud.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'json_decode(): Passing null to parameter #1 ($json) of type string is deprecated', 'APPPATH\\Controllers\\MA_estado_solicitud.php', 30)
+ 2 APPPATH\Controllers\MA_estado_solicitud.php(30): json_decode(null, false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 10:50:15 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated
+in APPPATH\Controllers\MA_estado_solicitud.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'json_decode(): Passing null to parameter #1 ($json) of type string is deprecated', 'APPPATH\\Controllers\\MA_estado_solicitud.php', 30)
+ 2 APPPATH\Controllers\MA_estado_solicitud.php(30): json_decode(null, false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 10:50:17 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated
+in APPPATH\Controllers\MA_estado_solicitud.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'json_decode(): Passing null to parameter #1 ($json) of type string is deprecated', 'APPPATH\\Controllers\\MA_estado_solicitud.php', 30)
+ 2 APPPATH\Controllers\MA_estado_solicitud.php(30): json_decode(null, false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 11:10:57 --> Undefined variable $resultado
+in APPPATH\Views\MA_estado_solicitud\formulario.php on line 13.
+ 1 APPPATH\Views\MA_estado_solicitud\formulario.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'APPPATH\\Views\\MA_estado_solicitud\\formulario.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_estado_solicitud\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_estado_solicitud/formulario', [], true)
+ 5 APPPATH\Controllers\MA_estado_solicitud.php(90): view('MA_estado_solicitud/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 12:03:01 --> Undefined variable $nameErr
+in APPPATH\Views\MA_estado_solicitud\formulario.php on line 16.
+ 1 APPPATH\Views\MA_estado_solicitud\formulario.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nameErr', 'APPPATH\\Views\\MA_estado_solicitud\\formulario.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_estado_solicitud\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_estado_solicitud/formulario', [], true)
+ 5 APPPATH\Controllers\MA_estado_solicitud.php(187): view('MA_estado_solicitud/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->editarRegistro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 13:53:14 --> Undefined constant "autofocus"
+in APPPATH\Views\MA_estado_solicitud\formulario.php on line 21.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_estado_solicitud/formulario', [], true)
+ 4 APPPATH\Controllers\MA_estado_solicitud.php(187): view('MA_estado_solicitud/formulario', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->editarRegistro('1')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 13:53:23 --> Undefined constant "autofocus"
+in APPPATH\Views\MA_estado_solicitud\formulario.php on line 21.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_estado_solicitud/formulario', [], true)
+ 4 APPPATH\Controllers\MA_estado_solicitud.php(187): view('MA_estado_solicitud/formulario', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->editarRegistro('1')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 14:04:16 --> Undefined variable $resultado
+in APPPATH\Views\MA_estado_solicitud\formulario.php on line 17.
+ 1 APPPATH\Views\MA_estado_solicitud\formulario.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'APPPATH\\Views\\MA_estado_solicitud\\formulario.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_estado_solicitud\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_estado_solicitud/formulario', [], true)
+ 5 APPPATH\Controllers\MA_estado_solicitud.php(90): view('MA_estado_solicitud/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 16:27:22 --> Undefined variable $resultado
+in APPPATH\Views\MA_estado_solicitud\formulario.php on line 17.
+ 1 APPPATH\Views\MA_estado_solicitud\formulario.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'APPPATH\\Views\\MA_estado_solicitud\\formulario.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_estado_solicitud\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_estado_solicitud/formulario', [], true)
+ 5 APPPATH\Controllers\MA_estado_solicitud.php(90): view('MA_estado_solicitud/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 16:27:30 --> Undefined variable $resultado
+in APPPATH\Views\MA_estado_solicitud\formulario.php on line 17.
+ 1 APPPATH\Views\MA_estado_solicitud\formulario.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'APPPATH\\Views\\MA_estado_solicitud\\formulario.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_estado_solicitud\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_estado_solicitud/formulario', [], true)
+ 5 APPPATH\Controllers\MA_estado_solicitud.php(90): view('MA_estado_solicitud/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 16:27:40 --> Undefined variable $resultado
+in APPPATH\Views\MA_estado_solicitud\formulario.php on line 17.
+ 1 APPPATH\Views\MA_estado_solicitud\formulario.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'APPPATH\\Views\\MA_estado_solicitud\\formulario.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_estado_solicitud\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_estado_solicitud/formulario', [], true)
+ 5 APPPATH\Controllers\MA_estado_solicitud.php(90): view('MA_estado_solicitud/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 16:27:49 --> Undefined variable $resultado
+in APPPATH\Views\MA_estado_solicitud\formulario.php on line 17.
+ 1 APPPATH\Views\MA_estado_solicitud\formulario.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'APPPATH\\Views\\MA_estado_solicitud\\formulario.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_estado_solicitud\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_estado_solicitud/formulario', [], true)
+ 5 APPPATH\Controllers\MA_estado_solicitud.php(90): view('MA_estado_solicitud/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 16:31:14 --> Undefined variable $resultado
+in APPPATH\Views\MA_estado_solicitud\formulario.php on line 17.
+ 1 APPPATH\Views\MA_estado_solicitud\formulario.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'APPPATH\\Views\\MA_estado_solicitud\\formulario.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_estado_solicitud\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_estado_solicitud/formulario', [], true)
+ 5 APPPATH\Controllers\MA_estado_solicitud.php(90): view('MA_estado_solicitud/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 16:31:29 --> Undefined variable $resultado
+in APPPATH\Views\MA_estado_solicitud\formulario.php on line 17.
+ 1 APPPATH\Views\MA_estado_solicitud\formulario.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'APPPATH\\Views\\MA_estado_solicitud\\formulario.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_estado_solicitud\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_estado_solicitud/formulario', [], true)
+ 5 APPPATH\Controllers\MA_estado_solicitud.php(90): view('MA_estado_solicitud/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 16:31:46 --> Undefined variable $resultado
+in APPPATH\Views\MA_estado_solicitud\formulario.php on line 17.
+ 1 APPPATH\Views\MA_estado_solicitud\formulario.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'APPPATH\\Views\\MA_estado_solicitud\\formulario.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_estado_solicitud\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_estado_solicitud/formulario', [], true)
+ 5 APPPATH\Controllers\MA_estado_solicitud.php(90): view('MA_estado_solicitud/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 16:31:54 --> Undefined variable $resultado
+in APPPATH\Views\MA_estado_solicitud\formulario.php on line 17.
+ 1 APPPATH\Views\MA_estado_solicitud\formulario.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'APPPATH\\Views\\MA_estado_solicitud\\formulario.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_estado_solicitud\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_estado_solicitud/formulario', [], true)
+ 5 APPPATH\Controllers\MA_estado_solicitud.php(90): view('MA_estado_solicitud/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 16:32:05 --> Undefined variable $resultado
+in APPPATH\Views\MA_estado_solicitud\formulario.php on line 17.
+ 1 APPPATH\Views\MA_estado_solicitud\formulario.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'APPPATH\\Views\\MA_estado_solicitud\\formulario.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_estado_solicitud\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_estado_solicitud/formulario', [], true)
+ 5 APPPATH\Controllers\MA_estado_solicitud.php(90): view('MA_estado_solicitud/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 16:36:00 --> Undefined variable $resultado
+in APPPATH\Views\MA_estado_solicitud\formulario.php on line 17.
+ 1 APPPATH\Views\MA_estado_solicitud\formulario.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'APPPATH\\Views\\MA_estado_solicitud\\formulario.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_estado_solicitud\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_estado_solicitud/formulario', [], true)
+ 5 APPPATH\Controllers\MA_estado_solicitud.php(90): view('MA_estado_solicitud/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 16:36:23 --> Undefined variable $resultado
+in APPPATH\Views\MA_estado_solicitud\formulario.php on line 17.
+ 1 APPPATH\Views\MA_estado_solicitud\formulario.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'APPPATH\\Views\\MA_estado_solicitud\\formulario.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_estado_solicitud\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_estado_solicitud/formulario', [], true)
+ 5 APPPATH\Controllers\MA_estado_solicitud.php(90): view('MA_estado_solicitud/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 20:10:19 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated
+in APPPATH\Controllers\MA_estado_solicitud.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'json_decode(): Passing null to parameter #1 ($json) of type string is deprecated', 'APPPATH\\Controllers\\MA_estado_solicitud.php', 30)
+ 2 APPPATH\Controllers\MA_estado_solicitud.php(30): json_decode(null, false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 20:11:01 --> Undefined variable $resultado
+in APPPATH\Views\MA_estado_solicitud\formulario.php on line 17.
+ 1 APPPATH\Views\MA_estado_solicitud\formulario.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'APPPATH\\Views\\MA_estado_solicitud\\formulario.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_estado_solicitud\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_estado_solicitud/formulario', [], true)
+ 5 APPPATH\Controllers\MA_estado_solicitud.php(90): view('MA_estado_solicitud/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 22:33:25 --> Undefined variable $row
+in APPPATH\Controllers\MA_estado_solicitud.php on line 232.
+ 1 APPPATH\Controllers\MA_estado_solicitud.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Controllers\\MA_estado_solicitud.php', 232)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->editarRegistroGuardar()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 22:45:08 --> Trying to access array offset on value of type bool
+in APPPATH\Controllers\MA_estado_solicitud.php on line 232.
+ 1 APPPATH\Controllers\MA_estado_solicitud.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type bool', 'APPPATH\\Controllers\\MA_estado_solicitud.php', 232)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->editarRegistroGuardar()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 23:18:01 --> Undefined variable $id
+in APPPATH\Controllers\MA_estado_solicitud.php on line 228.
+ 1 APPPATH\Controllers\MA_estado_solicitud.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\MA_estado_solicitud.php', 228)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->editarRegistroGuardar()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

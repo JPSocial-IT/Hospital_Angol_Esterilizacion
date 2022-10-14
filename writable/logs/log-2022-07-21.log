@@ -1,0 +1,378 @@
+CRITICAL - 2022-07-21 09:44:55 --> Undefined property: App\Controllers\Front::$load
+in APPPATH\Controllers\Front.php on line 11.
+ 1 APPPATH\Controllers\Front.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Front::$load', 'APPPATH\\Controllers\\Front.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Front->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 09:47:55 --> Undefined property: App\Controllers\Front::$load
+in APPPATH\Controllers\Front.php on line 11.
+ 1 APPPATH\Controllers\Front.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Front::$load', 'APPPATH\\Controllers\\Front.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Front->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 10:50:17 --> Undefined property: App\Controllers\Front::$load
+in APPPATH\Controllers\Front.php on line 11.
+ 1 APPPATH\Controllers\Front.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Front::$load', 'APPPATH\\Controllers\\Front.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Front->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 10:50:20 --> Undefined property: App\Controllers\Front::$load
+in APPPATH\Controllers\Front.php on line 11.
+ 1 APPPATH\Controllers\Front.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Front::$load', 'APPPATH\\Controllers\\Front.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Front->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 13:39:41 --> syntax error, unexpected token "=>"
+in APPPATH\Controllers\Front.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Front.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Front')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Front')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Front', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 13:39:43 --> syntax error, unexpected token "=>"
+in APPPATH\Controllers\Front.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Front.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Front')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Front')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Front', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 13:40:02 --> Class "App\Controllers\EntregaTurnoModel" not found
+in APPPATH\Controllers\Front.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Front->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 13:40:03 --> Class "App\Controllers\EntregaTurnoModel" not found
+in APPPATH\Controllers\Front.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Front->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 13:40:07 --> Class "App\Controllers\EntregaTurnoModel" not found
+in APPPATH\Controllers\Front.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Front->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 13:42:17 --> Class "App\Controllers\EntregaTurnoModel" not found
+in APPPATH\Controllers\Front.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 13:42:18 --> Class "App\Controllers\EntregaTurnoModel" not found
+in APPPATH\Controllers\Front.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 13:46:07 --> Class "App\Controllers\EntregaTurnoModel" not found
+in APPPATH\Controllers\Front.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 13:46:14 --> Class "App\Controllers\EntregaTurnoModel" not found
+in APPPATH\Controllers\Front.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 13:46:57 --> Class "App\Controllers\EntregaTurnoModel" not found
+in APPPATH\Controllers\Front.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 13:48:47 --> Class "App\Controllers\EntregaTurnoModel" not found
+in APPPATH\Controllers\Front.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 13:54:29 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(136): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Front.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 14:04:13 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(136): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Front.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 14:06:01 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(136): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Front.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 14:07:52 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(136): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Front.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 14:10:05 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(136): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Front.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 15:02:44 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(136): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Front.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 15:13:07 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(136): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Front.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:02:24 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(136): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Front.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:02:51 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(136): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Front.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:04:46 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(136): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Front.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:15:29 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(136): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Front.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:19:12 --> Array to string conversion
+in SYSTEMPATH\Database\Database.php on line 44.
+ 1 SYSTEMPATH\Database\Database.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Database.php', 44)
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(136): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Front.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:20:03 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(57): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(136): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Front.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:21:12 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(57): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(136): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Front.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:22:33 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 138.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(136): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Front.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:26:11 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 138.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(136): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Front.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:26:17 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 138.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(136): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Front.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:26:37 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 138.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(136): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Front.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:26:53 --> Undefined variable $prueba_datos
+in APPPATH\Controllers\Front.php on line 12.
+ 1 APPPATH\Controllers\Front.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prueba_datos', 'APPPATH\\Controllers\\Front.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:27:12 --> Undefined variable $prueba_datos
+in APPPATH\Controllers\Front.php on line 12.
+ 1 APPPATH\Controllers\Front.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prueba_datos', 'APPPATH\\Controllers\\Front.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:27:19 --> Undefined variable $prueba_datos
+in APPPATH\Controllers\Front.php on line 12.
+ 1 APPPATH\Controllers\Front.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prueba_datos', 'APPPATH\\Controllers\\Front.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:28:26 --> Undefined variable $prueba_datos
+in APPPATH\Controllers\Front.php on line 12.
+ 1 APPPATH\Controllers\Front.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prueba_datos', 'APPPATH\\Controllers\\Front.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:28:32 --> Undefined variable $prueba_datos
+in APPPATH\Controllers\Front.php on line 12.
+ 1 APPPATH\Controllers\Front.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prueba_datos', 'APPPATH\\Controllers\\Front.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:28:37 --> Undefined variable $prueba_datos
+in APPPATH\Controllers\Front.php on line 12.
+ 1 APPPATH\Controllers\Front.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prueba_datos', 'APPPATH\\Controllers\\Front.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:28:46 --> Undefined variable $prueba_datos
+in APPPATH\Controllers\Front.php on line 12.
+ 1 APPPATH\Controllers\Front.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prueba_datos', 'APPPATH\\Controllers\\Front.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:30:28 --> Undefined variable $prueba_datos
+in APPPATH\Controllers\Front.php on line 17.
+ 1 APPPATH\Controllers\Front.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prueba_datos', 'APPPATH\\Controllers\\Front.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Front->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:31:02 --> Undefined variable $prueba_datos
+in APPPATH\Controllers\Front.php on line 17.
+ 1 APPPATH\Controllers\Front.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prueba_datos', 'APPPATH\\Controllers\\Front.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Front->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:31:10 --> Undefined variable $prueba_datos
+in APPPATH\Controllers\Front.php on line 17.
+ 1 APPPATH\Controllers\Front.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prueba_datos', 'APPPATH\\Controllers\\Front.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Front->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:31:36 --> Undefined variable $class
+in APPPATH\Controllers\Front.php on line 17.
+ 1 APPPATH\Controllers\Front.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $class', 'APPPATH\\Controllers\\Front.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Front->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:31:37 --> Undefined variable $class
+in APPPATH\Controllers\Front.php on line 17.
+ 1 APPPATH\Controllers\Front.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $class', 'APPPATH\\Controllers\\Front.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Front->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:31:46 --> Undefined variable $prueba_datos
+in APPPATH\Controllers\Front.php on line 17.
+ 1 APPPATH\Controllers\Front.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prueba_datos', 'APPPATH\\Controllers\\Front.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Front->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 16:31:56 --> Undefined variable $prueba_datos
+in APPPATH\Controllers\Front.php on line 12.
+ 1 APPPATH\Controllers\Front.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prueba_datos', 'APPPATH\\Controllers\\Front.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Front->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

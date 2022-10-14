@@ -1,0 +1,118 @@
+CRITICAL - 2022-10-07 10:14:03 --> pg_query(): Query failed: ERROR:  relation &quot;ES_equipo_lavado_automatico&quot; does not exist
+LINE 1: SELECT * FROM &quot;ES_equipo_lavado_automatico&quot; ORDER BY &quot;id&quot; AS...
+                      ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  relation &quot;ES_equipo_lavado_automatico&quot; does not exist
+LINE 1: SELECT * FROM &quot;ES_equipo_lavado_automatico&quot; ORDER BY &quot;id&quot; AS...
+                      ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT * FROM "ES_equipo_lavado_automatico" ORDER BY "id" ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM "ES_equipo_lavado_automatico" ORDER BY "id" ASC')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM "ES_equipo_lavado_automatico" ORDER BY "id" ASC')
+ 5 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM "ES_equipo_lavado_automatico" ORDER BY "id" ASC')
+ 6 APPPATH\Controllers\MA_equipos_lavado_automatico.php(29): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistros()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->obtenerTablaRegistros()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 10:14:05 --> pg_query(): Query failed: ERROR:  relation &quot;ES_equipo_lavado_automatico&quot; does not exist
+LINE 1: SELECT * FROM &quot;ES_equipo_lavado_automatico&quot; ORDER BY &quot;id&quot; AS...
+                      ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  relation &quot;ES_equipo_lavado_automatico&quot; does not exist
+LINE 1: SELECT * FROM &quot;ES_equipo_lavado_automatico&quot; ORDER BY &quot;id&quot; AS...
+                      ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT * FROM "ES_equipo_lavado_automatico" ORDER BY "id" ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM "ES_equipo_lavado_automatico" ORDER BY "id" ASC')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM "ES_equipo_lavado_automatico" ORDER BY "id" ASC')
+ 5 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM "ES_equipo_lavado_automatico" ORDER BY "id" ASC')
+ 6 APPPATH\Controllers\MA_equipos_lavado_automatico.php(29): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistros()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->obtenerTablaRegistros()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 11:41:47 --> pg_query(): Query failed: ERROR:  relation &quot;ES_usuarios&quot; does not exist
+LINE 1: SELECT * FROM &quot;ES_usuarios&quot; WHERE activo = TRUE ORDER BY id ...
+                      ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  relation &quot;ES_usuarios&quot; does not exist
+LINE 1: SELECT * FROM &quot;ES_usuarios&quot; WHERE activo = TRUE ORDER BY id ...
+                      ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT * FROM "ES_usuarios" WHERE activo = TRUE ORDER BY id ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM "ES_usuarios" WHERE activo = TRUE ORDER BY id ASC')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM "ES_usuarios" WHERE activo = TRUE ORDER BY id ASC')
+ 5 APPPATH\Models\ES_areasModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT * FROM "ES_usuarios" WHERE activo = TRUE ORDER BY id ASC')
+ 6 APPPATH\Controllers\ES_mantenedoresController.php(44): App\Models\ES_areasModel->obtenerFuncionarios()
+ 7 APPPATH\Controllers\ES_mantenedoresController.php(63): App\Controllers\ES_mantenedoresController->obtenerFuncionarios()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ES_mantenedoresController->areasAgregarRegistro()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ES_mantenedoresController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 12:54:38 --> Invalid file: Mantenedores/areas_formulario.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Mantenedores/areas_formulario.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Mantenedores/areas_formulario', [], true)
+ 3 APPPATH\Controllers\ES_mantenedoresController.php(64): view('Mantenedores/areas_formulario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ES_mantenedoresController->areasAgregarRegistro()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ES_mantenedoresController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 12:55:37 --> Call to undefined method App\Controllers\ES_mantenedoresController::obtenerRegistroPorId()
+in APPPATH\Controllers\ES_mantenedoresController.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ES_mantenedoresController->areasEditarRegistro('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ES_mantenedoresController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 13:00:25 --> Invalid file: Mantenedores/areas_formulario.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Mantenedores/areas_formulario.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Mantenedores/areas_formulario', [], true)
+ 3 APPPATH\Controllers\ES_mantenedoresController.php(117): view('Mantenedores/areas_formulario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ES_mantenedoresController->areasEditarRegistro('1')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ES_mantenedoresController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 13:21:40 --> Invalid file: Mantenedores/areas_formulario.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Mantenedores/areas_formulario.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Mantenedores/areas_formulario', [], true)
+ 3 APPPATH\Controllers\ES_mantenedoresController.php(117): view('Mantenedores/areas_formulario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ES_mantenedoresController->areasEditarRegistro('1')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ES_mantenedoresController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 14:34:20 --> Invalid file: Mantenedores/areas_formulario.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Mantenedores/areas_formulario.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Mantenedores/areas_formulario', [], true)
+ 3 APPPATH\Controllers\ES_mantenedoresController.php(117): view('Mantenedores/areas_formulario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ES_mantenedoresController->areasEditarRegistro('1')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ES_mantenedoresController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 14:54:24 --> Invalid file: Mantenedores/areas_formulario.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Mantenedores/areas_formulario.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Mantenedores/areas_formulario', [], true)
+ 3 APPPATH\Controllers\ES_mantenedoresController.php(117): view('Mantenedores/areas_formulario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ES_mantenedoresController->areasEditarRegistro('1')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ES_mantenedoresController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 15:23:19 --> Invalid file: Mantenedores/areas_formulario.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Mantenedores/areas_formulario.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Mantenedores/areas_formulario', [], true)
+ 3 APPPATH\Controllers\ES_mantenedoresController.php(64): view('Mantenedores/areas_formulario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ES_mantenedoresController->areasAgregarRegistro()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ES_mantenedoresController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 15:36:24 --> Invalid file: Mantenedores/areas_formulario.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Mantenedores/areas_formulario.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Mantenedores/areas_formulario', [], true)
+ 3 APPPATH\Controllers\ES_mantenedoresController.php(117): view('Mantenedores/areas_formulario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ES_mantenedoresController->areasEditarRegistro('1')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ES_mantenedoresController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

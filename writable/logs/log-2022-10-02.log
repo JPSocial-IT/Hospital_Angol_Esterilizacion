@@ -1,0 +1,150 @@
+CRITICAL - 2022-10-02 18:52:22 --> Class "App\Models\MA_equipos_lavado_automaticoModel" not found
+in APPPATH\Controllers\MA_equipos_lavado_automatico.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\MA_equipos_lavado_automatico->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 18:53:50 --> Class "App\Models\MA_equipos_lavado_automaticoModel" not found
+in APPPATH\Controllers\MA_equipos_lavado_automatico.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\MA_equipos_lavado_automatico->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 18:54:06 --> Class "App\Models\MA_equipos_lavado_automaticoModel" not found
+in APPPATH\Controllers\MA_equipos_lavado_automatico.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\MA_equipos_lavado_automatico->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 18:54:07 --> Class "App\Models\MA_equipos_lavado_automaticoModel" not found
+in APPPATH\Controllers\MA_equipos_lavado_automatico.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\MA_equipos_lavado_automatico->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 18:56:26 --> Class "App\Models\MA_equipos_lavado_automaticoModel" not found
+in APPPATH\Controllers\MA_equipos_lavado_automatico.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\MA_equipos_lavado_automatico->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 19:01:55 --> Class "App\Models\MA_equipos_lavado_automaticoModel" not found
+in APPPATH\Controllers\MA_equipos_lavado_automatico.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\MA_equipos_lavado_automatico->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 19:01:56 --> Class "App\Models\MA_equipos_lavado_automaticoModel" not found
+in APPPATH\Controllers\MA_equipos_lavado_automatico.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\MA_equipos_lavado_automatico->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 19:02:01 --> Class "App\Models\MA_equipos_lavado_automaticoModel" not found
+in APPPATH\Controllers\MA_equipos_lavado_automatico.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\MA_equipos_lavado_automatico->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 19:02:31 --> Class "App\Models\MA_equipos_lavado_automaticoModel" not found
+in APPPATH\Controllers\MA_equipos_lavado_automatico.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\MA_equipos_lavado_automatico->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 19:03:51 --> Class "App\Models\MA_equipos_lavado_automaticoModel" not found
+in APPPATH\Controllers\MA_equipos_lavado_automatico.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\MA_equipos_lavado_automatico->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 19:06:59 --> syntax error, unexpected token "protected", expecting end of file
+in APPPATH\Models\MA_equipos_lavado_automaticoModel.php on line 9.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\MA_equipos_lavado_automaticoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MA_equipos_lavado_automaticoModel')
+ 3 APPPATH\Controllers\MA_equipos_lavado_automatico.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MA_equipos_lavado_automaticoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\MA_equipos_lavado_automatico->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 20:51:45 --> Undefined property: App\Controllers\MA_equipos_lavado_automatico::$ma_equipos_lavado_automatico
+in APPPATH\Controllers\MA_equipos_lavado_automatico.php on line 40.
+ 1 APPPATH\Controllers\MA_equipos_lavado_automatico.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\MA_equipos_lavado_automatico::$ma_equipos_lavado_automatico', 'APPPATH\\Controllers\\MA_equipos_lavado_automatico.php', 40)
+ 2 APPPATH\Controllers\MA_equipos_lavado_automatico.php(59): App\Controllers\MA_equipos_lavado_automatico->obtenerAreas()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->agregarRegistro()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 20:54:35 --> Undefined property: App\Controllers\MA_equipos_lavado_automatico::$ma_equipos_lavado_automatico
+in APPPATH\Controllers\MA_equipos_lavado_automatico.php on line 40.
+ 1 APPPATH\Controllers\MA_equipos_lavado_automatico.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\MA_equipos_lavado_automatico::$ma_equipos_lavado_automatico', 'APPPATH\\Controllers\\MA_equipos_lavado_automatico.php', 40)
+ 2 APPPATH\Controllers\MA_equipos_lavado_automatico.php(59): App\Controllers\MA_equipos_lavado_automatico->obtenerAreas()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->agregarRegistro()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 21:01:16 --> Undefined array key "descripcion_equipo"
+in APPPATH\Views\MA_equipos_lavado_automatico\formulario.php on line 23.
+ 1 APPPATH\Views\MA_equipos_lavado_automatico\formulario.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descripcion_equipo"', 'APPPATH\\Views\\MA_equipos_lavado_automatico\\formulario.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_equipos_lavado_automatico\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_equipos_lavado_automatico/formulario', [], true)
+ 5 APPPATH\Controllers\MA_equipos_lavado_automatico.php(60): view('MA_equipos_lavado_automatico/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 21:05:39 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\MA_equipos_lavado_automatico\formulario.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_equipos_lavado_automatico/formulario', [], true)
+ 4 APPPATH\Controllers\MA_equipos_lavado_automatico.php(61): view('MA_equipos_lavado_automatico/formulario', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->agregarRegistro()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 21:07:24 --> Undefined array key "nombres"
+in APPPATH\Views\MA_equipos_lavado_automatico\formulario.php on line 34.
+ 1 APPPATH\Views\MA_equipos_lavado_automatico\formulario.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombres"', 'APPPATH\\Views\\MA_equipos_lavado_automatico\\formulario.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_equipos_lavado_automatico\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_equipos_lavado_automatico/formulario', [], true)
+ 5 APPPATH\Controllers\MA_equipos_lavado_automatico.php(61): view('MA_equipos_lavado_automatico/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 21:08:37 --> Undefined array key "nombre"
+in APPPATH\Views\MA_equipos_lavado_automatico\formulario.php on line 42.
+ 1 APPPATH\Views\MA_equipos_lavado_automatico\formulario.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'APPPATH\\Views\\MA_equipos_lavado_automatico\\formulario.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_equipos_lavado_automatico\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_equipos_lavado_automatico/formulario', [], true)
+ 5 APPPATH\Controllers\MA_equipos_lavado_automatico.php(61): view('MA_equipos_lavado_automatico/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 21:09:49 --> Undefined array key "nombre"
+in APPPATH\Views\MA_equipos_lavado_automatico\formulario.php on line 42.
+ 1 APPPATH\Views\MA_equipos_lavado_automatico\formulario.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'APPPATH\\Views\\MA_equipos_lavado_automatico\\formulario.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_equipos_lavado_automatico\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_equipos_lavado_automatico/formulario', [], true)
+ 5 APPPATH\Controllers\MA_equipos_lavado_automatico.php(61): view('MA_equipos_lavado_automatico/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 21:10:15 --> Undefined array key "nombre"
+in APPPATH\Views\MA_equipos_lavado_automatico\formulario.php on line 42.
+ 1 APPPATH\Views\MA_equipos_lavado_automatico\formulario.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'APPPATH\\Views\\MA_equipos_lavado_automatico\\formulario.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_equipos_lavado_automatico\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_equipos_lavado_automatico/formulario', [], true)
+ 5 APPPATH\Controllers\MA_equipos_lavado_automatico.php(61): view('MA_equipos_lavado_automatico/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

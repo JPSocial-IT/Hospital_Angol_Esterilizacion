@@ -1,0 +1,118 @@
+CRITICAL - 2022-10-14 00:00:36 --> pg_query(): Query failed: ERROR:  invalid input syntax for type boolean: &quot;&quot;
+LINE 1: ...&quot; = '154630', &quot;descripcion&quot; = 'FONASA (2)', &quot;activo_es&quot; = ''
+                                                                     ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  invalid input syntax for type boolean: &quot;&quot;
+LINE 1: ...&quot; = \'154630\', &quot;descripcion&quot; = \'FONASA (2)\', &quot;activo_es&quot; = \'\'
+                                                                     ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'UPDATE "GRL_servicio" SET "cod_deis" = \'154630\', "descripcion" = \'FONASA (2)\', "activo_es" = \'\'
+WHERE "GRL_servicio"."id" IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "GRL_servicio" SET "cod_deis" = \'154630\', "descripcion" = \'FONASA (2)\', "activo_es" = \'\'
+WHERE "GRL_servicio"."id" IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "GRL_servicio" SET "cod_deis" = \'154630\', "descripcion" = \'FONASA (2)\', "activo_es" = \'\'
+WHERE "GRL_servicio"."id" IN (\'5\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query('UPDATE "GRL_servicio" SET "cod_deis" = :cod_deis:, "descripcion" = :descripcion:, "activo_es" = :activo_es:
+WHERE "GRL_servicio"."id" IN :GRL_servicio.id:', [...], false)
+ 6 SYSTEMPATH\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Models\ES_serviciosModel.php(47): CodeIgniter\Model->update('5', [...])
+10 APPPATH\Controllers\ES_mantenedoresController.php(799): App\Models\ES_serviciosModel->editarRegistro('5', [...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ES_mantenedoresController->serviciosEditarRegistroGuardar()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ES_mantenedoresController))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 00:03:42 --> pg_query(): Query failed: ERROR:  invalid input syntax for type boolean: &quot;&quot;
+LINE 1: ...&quot; = '154630', &quot;descripcion&quot; = 'FONASA (2)', &quot;activo_es&quot; = ''
+                                                                     ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  invalid input syntax for type boolean: &quot;&quot;
+LINE 1: ...&quot; = \'154630\', &quot;descripcion&quot; = \'FONASA (2)\', &quot;activo_es&quot; = \'\'
+                                                                     ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'UPDATE "GRL_servicio" SET "cod_deis" = \'154630\', "descripcion" = \'FONASA (2)\', "activo_es" = \'\'
+WHERE "GRL_servicio"."id" IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "GRL_servicio" SET "cod_deis" = \'154630\', "descripcion" = \'FONASA (2)\', "activo_es" = \'\'
+WHERE "GRL_servicio"."id" IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "GRL_servicio" SET "cod_deis" = \'154630\', "descripcion" = \'FONASA (2)\', "activo_es" = \'\'
+WHERE "GRL_servicio"."id" IN (\'5\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query('UPDATE "GRL_servicio" SET "cod_deis" = :cod_deis:, "descripcion" = :descripcion:, "activo_es" = :activo_es:
+WHERE "GRL_servicio"."id" IN :GRL_servicio.id:', [...], false)
+ 6 SYSTEMPATH\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Models\ES_serviciosModel.php(47): CodeIgniter\Model->update('5', [...])
+10 APPPATH\Controllers\ES_mantenedoresController.php(799): App\Models\ES_serviciosModel->editarRegistro('5', [...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ES_mantenedoresController->serviciosEditarRegistroGuardar()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ES_mantenedoresController))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 00:05:42 --> pg_query(): Query failed: ERROR:  invalid input syntax for type boolean: &quot;&quot;
+LINE 1: ...&quot; = '154630', &quot;descripcion&quot; = 'FONASA (2)', &quot;activo_es&quot; = ''
+                                                                     ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  invalid input syntax for type boolean: &quot;&quot;
+LINE 1: ...&quot; = \'154630\', &quot;descripcion&quot; = \'FONASA (2)\', &quot;activo_es&quot; = \'\'
+                                                                     ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'UPDATE "GRL_servicio" SET "cod_deis" = \'154630\', "descripcion" = \'FONASA (2)\', "activo_es" = \'\'
+WHERE "GRL_servicio"."id" IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "GRL_servicio" SET "cod_deis" = \'154630\', "descripcion" = \'FONASA (2)\', "activo_es" = \'\'
+WHERE "GRL_servicio"."id" IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "GRL_servicio" SET "cod_deis" = \'154630\', "descripcion" = \'FONASA (2)\', "activo_es" = \'\'
+WHERE "GRL_servicio"."id" IN (\'5\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query('UPDATE "GRL_servicio" SET "cod_deis" = :cod_deis:, "descripcion" = :descripcion:, "activo_es" = :activo_es:
+WHERE "GRL_servicio"."id" IN :GRL_servicio.id:', [...], false)
+ 6 SYSTEMPATH\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Models\ES_serviciosModel.php(47): CodeIgniter\Model->update('5', [...])
+10 APPPATH\Controllers\ES_mantenedoresController.php(799): App\Models\ES_serviciosModel->editarRegistro('5', [...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ES_mantenedoresController->serviciosEditarRegistroGuardar()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ES_mantenedoresController))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 08:18:19 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated
+in APPPATH\Controllers\ES_mantenedoresController.php on line 512.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'json_decode(): Passing null to parameter #1 ($json) of type string is deprecated', 'APPPATH\\Controllers\\ES_mantenedoresController.php', 512)
+ 2 APPPATH\Controllers\ES_mantenedoresController.php(512): json_decode(null, false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ES_mantenedoresController->equipos()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ES_mantenedoresController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 09:40:49 --> pg_query(): Query failed: ERROR:  invalid input syntax for type bigint: &quot;&quot;
+LINE 1: ...cripcion&quot;, &quot;activo_es&quot;, &quot;fecha_registro&quot;) VALUES ('', '', 't...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  invalid input syntax for type bigint: &quot;&quot;
+LINE 1: ...cripcion&quot;, &quot;activo_es&quot;, &quot;fecha_registro&quot;) VALUES (\'\', \'\', \'t...
+                                                             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "GRL_servicio" ("cod_deis", "descripcion", "activo_es", "fecha_registro") VALUES (\'\', \'\', \'true\', \'2022-10-14 09:40:48\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "GRL_servicio" ("cod_deis", "descripcion", "activo_es", "fecha_registro") VALUES (\'\', \'\', \'true\', \'2022-10-14 09:40:48\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GRL_servicio" ("cod_deis", "descripcion", "activo_es", "fecha_registro") VALUES (\'\', \'\', \'true\', \'2022-10-14 09:40:48\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GRL_servicio" ("cod_deis", "descripcion", "activo_es", "fecha_registro") VALUES (:cod_deis:, :descripcion:, :activo_es:, :fecha_registro:)', [...], false)
+ 6 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Models\GRLServicioModel.php(45): CodeIgniter\Model->insert([...])
+10 APPPATH\Controllers\ES_mantenedoresController.php(729): App\Models\GRLServicioModel->insertarDatos([...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ES_mantenedoresController->servicioInsertarDatos()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ES_mantenedoresController))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 12:36:15 --> pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;GRL_servicio_pkey&quot;
+DETAIL:  Key (id)=(12) already exists.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;GRL_servicio_pkey&quot;
+DETAIL:  Key (id)=(12) already exists.', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "GRL_servicio" ("cod_deis", "descripcion", "activo_es", "fecha_registro") VALUES (\'12342\', \'PRUEBA Servicio\', \'true\', \'2022-10-14 12:36:14\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "GRL_servicio" ("cod_deis", "descripcion", "activo_es", "fecha_registro") VALUES (\'12342\', \'PRUEBA Servicio\', \'true\', \'2022-10-14 12:36:14\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GRL_servicio" ("cod_deis", "descripcion", "activo_es", "fecha_registro") VALUES (\'12342\', \'PRUEBA Servicio\', \'true\', \'2022-10-14 12:36:14\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GRL_servicio" ("cod_deis", "descripcion", "activo_es", "fecha_registro") VALUES (:cod_deis:, :descripcion:, :activo_es:, :fecha_registro:)', [...], false)
+ 6 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Models\GRLServicioModel.php(58): CodeIgniter\Model->insert([...])
+10 APPPATH\Controllers\ES_mantenedoresController.php(729): App\Models\GRLServicioModel->insertarDatos([...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ES_mantenedoresController->servicioInsertarDatos()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ES_mantenedoresController))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

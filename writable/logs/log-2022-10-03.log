@@ -1,0 +1,792 @@
+CRITICAL - 2022-10-03 07:34:38 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated
+in APPPATH\Controllers\MA_bodegas.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'json_decode(): Passing null to parameter #1 ($json) of type string is deprecated', 'APPPATH\\Controllers\\MA_bodegas.php', 25)
+ 2 APPPATH\Controllers\MA_bodegas.php(25): json_decode(null, false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 07:34:41 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated
+in APPPATH\Controllers\MA_equipos_lavado_automatico.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'json_decode(): Passing null to parameter #1 ($json) of type string is deprecated', 'APPPATH\\Controllers\\MA_equipos_lavado_automatico.php', 22)
+ 2 APPPATH\Controllers\MA_equipos_lavado_automatico.php(22): json_decode(null, false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 07:34:43 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated
+in APPPATH\Controllers\MA_servicios.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'json_decode(): Passing null to parameter #1 ($json) of type string is deprecated', 'APPPATH\\Controllers\\MA_servicios.php', 22)
+ 2 APPPATH\Controllers\MA_servicios.php(22): json_decode(null, false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_servicios->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_servicios))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 09:23:29 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(106): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->editarRegistro('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 09:25:37 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(106): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->editarRegistro('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 09:30:40 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'2\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'2\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('2')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(106): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('2')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->editarRegistro('2')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 09:53:34 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(154): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->eliminarRegistroConfirmar('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 09:53:37 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(154): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->eliminarRegistroConfirmar('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 09:53:39 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(106): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->editarRegistro('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 09:53:53 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(106): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->editarRegistro('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 10:12:49 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(106): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->editarRegistro('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 10:16:19 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(106): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->editarRegistro('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 10:18:11 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(106): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->editarRegistro('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 10:18:32 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(106): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->editarRegistro('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 10:19:05 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(106): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->editarRegistro('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 10:46:47 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(154): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->eliminarRegistroConfirmar('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 10:46:48 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(154): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->eliminarRegistroConfirmar('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 10:46:52 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(106): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->editarRegistro('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 10:48:53 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(154): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->eliminarRegistroConfirmar('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 10:59:04 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(106): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->editarRegistro('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 10:59:16 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(106): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->editarRegistro('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 10:59:29 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(106): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->editarRegistro('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 10:59:39 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(106): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->editarRegistro('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 13:09:07 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(106): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->editarRegistro('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 13:20:44 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(106): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->editarRegistro('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 13:24:48 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(106): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->editarRegistro('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 13:52:18 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(106): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->editarRegistro('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 13:57:18 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(106): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->editarRegistro('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 13:57:33 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_equipos_lavado_automatico»
+LINE 2: FROM &quot;ES_equipos_lavado_automatico&quot;
+             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = \'1\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ES_equipos_lavado_automatico"
+WHERE "id" = :id:', [...], false)
+ 6 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(37): CodeIgniter\BaseModel->findAll()
+ 9 APPPATH\Controllers\MA_equipos_lavado_automatico.php(35): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistroPorId('1')
+10 APPPATH\Controllers\MA_equipos_lavado_automatico.php(106): App\Controllers\MA_equipos_lavado_automatico->obtenerRegistroPorId('1')
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->editarRegistro('1')
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 15:40:54 --> Undefined variable $id_servicio
+in APPPATH\Controllers\MA_equipos_lavado_automatico.php on line 138.
+ 1 APPPATH\Controllers\MA_equipos_lavado_automatico.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_servicio', 'APPPATH\\Controllers\\MA_equipos_lavado_automatico.php', 138)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->editarRegistroGuardar()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 16:16:18 --> Undefined array key "descripcion_equipos"
+in APPPATH\Controllers\MA_equipos_lavado_automatico.php on line 171.
+ 1 APPPATH\Controllers\MA_equipos_lavado_automatico.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descripcion_equipos"', 'APPPATH\\Controllers\\MA_equipos_lavado_automatico.php', 171)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->eliminarRegistro()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 18:29:30 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated
+in APPPATH\Controllers\MA_servicios.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'json_decode(): Passing null to parameter #1 ($json) of type string is deprecated', 'APPPATH\\Controllers\\MA_servicios.php', 22)
+ 2 APPPATH\Controllers\MA_servicios.php(22): json_decode(null, false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_servicios->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_servicios))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 20:22:28 --> Undefined array key "encargado_servicio"
+in APPPATH\Views\MA_areas\formulario.php on line 33.
+ 1 APPPATH\Views\MA_areas\formulario.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "encargado_servicio"', 'APPPATH\\Views\\MA_areas\\formulario.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_areas\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_areas/formulario', [], true)
+ 5 APPPATH\Controllers\MA_areas.php(60): view('MA_areas/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_areas->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_areas))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-03 20:24:00 --> Undefined array key "encargado_id"
+in APPPATH\Controllers\MA_areas.php on line 109.
+ 1 APPPATH\Controllers\MA_areas.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "encargado_id"', 'APPPATH\\Controllers\\MA_areas.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_areas->editarRegistro('1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_areas))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

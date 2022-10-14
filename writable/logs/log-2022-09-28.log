@@ -1,0 +1,482 @@
+CRITICAL - 2022-09-28 14:47:38 --> Cannot redeclare App\Models\MA_bodegasModel::obtenerFuncionarios()
+in APPPATH\Models\MA_bodegasModel.php on line 58.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 14:54:29 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated
+in APPPATH\Controllers\MA_estado_solicitud.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'json_decode(): Passing null to parameter #1 ($json) of type string is deprecated', 'APPPATH\\Controllers\\MA_estado_solicitud.php', 30)
+ 2 APPPATH\Controllers\MA_estado_solicitud.php(30): json_decode(null, false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 14:54:35 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated
+in APPPATH\Controllers\MA_bodegas.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'json_decode(): Passing null to parameter #1 ($json) of type string is deprecated', 'APPPATH\\Controllers\\MA_bodegas.php', 25)
+ 2 APPPATH\Controllers\MA_bodegas.php(25): json_decode(null, false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 16:34:37 --> syntax error, unexpected token "$", expecting ";"
+in APPPATH\Views\MA_bodegas\formulario.php on line 38.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(145): view('MA_bodegas/formulario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->editarRegistro('1')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 16:34:53 --> syntax error, unexpected token "$", expecting ";"
+in APPPATH\Views\MA_bodegas\formulario.php on line 38.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(145): view('MA_bodegas/formulario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->editarRegistro('1')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 16:43:39 --> syntax error, unexpected token "$", expecting ";"
+in APPPATH\Views\MA_bodegas\formulario.php on line 38.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(145): view('MA_bodegas/formulario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->editarRegistro('1')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 16:43:53 --> syntax error, unexpected token "$", expecting ";"
+in APPPATH\Views\MA_bodegas\formulario.php on line 38.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(145): view('MA_bodegas/formulario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->editarRegistro('1')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 16:45:30 --> syntax error, unexpected token "$", expecting ";"
+in APPPATH\Views\MA_bodegas\formulario.php on line 38.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(75): view('MA_bodegas/formulario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 16:45:37 --> syntax error, unexpected token "$", expecting ";"
+in APPPATH\Views\MA_bodegas\formulario.php on line 38.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(75): view('MA_bodegas/formulario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 16:52:04 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\MA_bodegas\formulario.php on line 41.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(75): view('MA_bodegas/formulario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 16:52:18 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\MA_bodegas\formulario.php on line 41.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(75): view('MA_bodegas/formulario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 16:56:44 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\MA_bodegas\formulario.php on line 41.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(75): view('MA_bodegas/formulario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 17:00:55 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\MA_bodegas\formulario.php on line 41.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(75): view('MA_bodegas/formulario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 17:01:09 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\MA_bodegas\formulario.php on line 41.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(75): view('MA_bodegas/formulario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 17:24:08 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\MA_bodegas\formulario.php on line 41.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(75): view('MA_bodegas/formulario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 17:33:25 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\MA_bodegas\formulario.php on line 41.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(75): view('MA_bodegas/formulario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 17:34:33 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\MA_bodegas\formulario.php on line 38.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 4 APPPATH\Controllers\MA_bodegas.php(75): view('MA_bodegas/formulario', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 17:46:31 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\MA_bodegas\formulario.php on line 38.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 4 APPPATH\Controllers\MA_bodegas.php(75): view('MA_bodegas/formulario', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 17:52:20 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\MA_bodegas\formulario.php on line 38.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 4 APPPATH\Controllers\MA_bodegas.php(75): view('MA_bodegas/formulario', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 17:54:11 --> Undefined property: App\Controllers\MA_bodegas::$ma_bodega_model
+in APPPATH\Controllers\MA_bodegas.php on line 60.
+ 1 APPPATH\Controllers\MA_bodegas.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\MA_bodegas::$ma_bodega_model', 'APPPATH\\Controllers\\MA_bodegas.php', 60)
+ 2 APPPATH\Controllers\MA_bodegas.php(79): App\Controllers\MA_bodegas->obtenerFuncionarios()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 18:01:13 --> Undefined property: App\Controllers\MA_bodegas::$ma_bodega_model
+in APPPATH\Controllers\MA_bodegas.php on line 60.
+ 1 APPPATH\Controllers\MA_bodegas.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\MA_bodegas::$ma_bodega_model', 'APPPATH\\Controllers\\MA_bodegas.php', 60)
+ 2 APPPATH\Controllers\MA_bodegas.php(79): App\Controllers\MA_bodegas->obtenerFuncionarios()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 18:01:58 --> Undefined property: App\Controllers\MA_bodegas::$ma_bodega_model
+in APPPATH\Controllers\MA_bodegas.php on line 60.
+ 1 APPPATH\Controllers\MA_bodegas.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\MA_bodegas::$ma_bodega_model', 'APPPATH\\Controllers\\MA_bodegas.php', 60)
+ 2 APPPATH\Controllers\MA_bodegas.php(79): App\Controllers\MA_bodegas->obtenerFuncionarios()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 18:41:08 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\MA_bodegas\formulario.php on line 38.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 4 APPPATH\Controllers\MA_bodegas.php(151): view('MA_bodegas/formulario', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->editarRegistro('1')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 18:41:17 --> Undefined property: App\Controllers\MA_bodegas::$ma_bodega_model
+in APPPATH\Controllers\MA_bodegas.php on line 60.
+ 1 APPPATH\Controllers\MA_bodegas.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\MA_bodegas::$ma_bodega_model', 'APPPATH\\Controllers\\MA_bodegas.php', 60)
+ 2 APPPATH\Controllers\MA_bodegas.php(79): App\Controllers\MA_bodegas->obtenerFuncionarios()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 18:44:54 --> Undefined property: App\Controllers\MA_bodegas::$ma_bodega_model
+in APPPATH\Controllers\MA_bodegas.php on line 60.
+ 1 APPPATH\Controllers\MA_bodegas.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\MA_bodegas::$ma_bodega_model', 'APPPATH\\Controllers\\MA_bodegas.php', 60)
+ 2 APPPATH\Controllers\MA_bodegas.php(79): App\Controllers\MA_bodegas->obtenerFuncionarios()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 18:46:28 --> Undefined property: App\Controllers\MA_bodegas::$ma_bodega_model
+in APPPATH\Controllers\MA_bodegas.php on line 60.
+ 1 APPPATH\Controllers\MA_bodegas.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\MA_bodegas::$ma_bodega_model', 'APPPATH\\Controllers\\MA_bodegas.php', 60)
+ 2 APPPATH\Controllers\MA_bodegas.php(79): App\Controllers\MA_bodegas->obtenerFuncionarios()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 19:06:01 --> pg_query(): Query failed: ERROR:  no existe la columna «TRUE»
+LINE 1: SELECT * FROM &quot;ES_usuarios&quot; WHERE &quot;activo&quot; = &quot;TRUE&quot; ORDER BY...
+                                                     ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la columna «TRUE»
+LINE 1: SELECT * FROM &quot;ES_usuarios&quot; WHERE &quot;activo&quot; = &quot;TRUE&quot; ORDER BY...
+                                                     ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT * FROM "ES_usuarios" WHERE "activo" = "TRUE" ORDER BY "id" ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM "ES_usuarios" WHERE "activo" = "TRUE" ORDER BY "id" ASC')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM "ES_usuarios" WHERE "activo" = "TRUE" ORDER BY "id" ASC')
+ 5 APPPATH\Models\MA_bodegasModel.php(37): CodeIgniter\Database\BaseConnection->query('SELECT * FROM "ES_usuarios" WHERE "activo" = "TRUE" ORDER BY "id" ASC')
+ 6 APPPATH\Controllers\MA_bodegas.php(60): App\Models\MA_bodegasModel->obtenerFuncionarios()
+ 7 APPPATH\Controllers\MA_bodegas.php(79): App\Controllers\MA_bodegas->obtenerFuncionarios()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 19:07:59 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\MA_bodegas\formulario.php on line 38.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 4 APPPATH\Controllers\MA_bodegas.php(150): view('MA_bodegas/formulario', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->editarRegistro('1')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 19:08:06 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\MA_bodegas\formulario.php on line 38.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 4 APPPATH\Controllers\MA_bodegas.php(150): view('MA_bodegas/formulario', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->editarRegistro('3')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 20:16:45 --> syntax error, unexpected single-quoted string " || apellido_uno AS nombre_com...", expecting ")"
+in APPPATH\Models\MA_bodegasModel.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\MA_bodegasModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MA_bodegasModel')
+ 3 APPPATH\Controllers\MA_bodegas.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MA_bodegasModel')
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\MA_bodegas->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 20:23:56 --> Undefined array key "nombre_completo"
+in APPPATH\Views\MA_bodegas\formulario.php on line 40.
+ 1 APPPATH\Views\MA_bodegas\formulario.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_completo"', 'APPPATH\\Views\\MA_bodegas\\formulario.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_bodegas\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 5 APPPATH\Controllers\MA_bodegas.php(80): view('MA_bodegas/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 20:25:11 --> syntax error, unexpected identifier "ES_usuarios", expecting ")"
+in APPPATH\Models\MA_bodegasModel.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\MA_bodegasModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MA_bodegasModel')
+ 3 APPPATH\Controllers\MA_bodegas.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MA_bodegasModel')
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\MA_bodegas->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 22:07:56 --> syntax error, unexpected identifier "ES_usuarios", expecting ")"
+in APPPATH\Models\MA_bodegasModel.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\MA_bodegasModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MA_bodegasModel')
+ 3 APPPATH\Controllers\MA_bodegas.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MA_bodegasModel')
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\MA_bodegas->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 22:08:18 --> syntax error, unexpected identifier "ES_usuarios", expecting ")"
+in APPPATH\Models\MA_bodegasModel.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\MA_bodegasModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MA_bodegasModel')
+ 3 APPPATH\Controllers\MA_bodegas.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MA_bodegasModel')
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\MA_bodegas->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 22:09:30 --> syntax error, unexpected identifier "ES_usuarios", expecting ")"
+in APPPATH\Models\MA_bodegasModel.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\MA_bodegasModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MA_bodegasModel')
+ 3 APPPATH\Controllers\MA_bodegas.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MA_bodegasModel')
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\MA_bodegas->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 22:09:36 --> syntax error, unexpected identifier "ES_usuarios", expecting ")"
+in APPPATH\Models\MA_bodegasModel.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\MA_bodegasModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MA_bodegasModel')
+ 3 APPPATH\Controllers\MA_bodegas.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MA_bodegasModel')
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\MA_bodegas->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 22:10:46 --> syntax error, unexpected identifier "ES_usuarios", expecting ")"
+in APPPATH\Models\MA_bodegasModel.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\MA_bodegasModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MA_bodegasModel')
+ 3 APPPATH\Controllers\MA_bodegas.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MA_bodegasModel')
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\MA_bodegas->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 22:11:03 --> syntax error, unexpected identifier "ES_usuarios", expecting ")"
+in APPPATH\Models\MA_bodegasModel.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\MA_bodegasModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MA_bodegasModel')
+ 3 APPPATH\Controllers\MA_bodegas.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MA_bodegasModel')
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\MA_bodegas->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 22:12:05 --> syntax error, unexpected identifier "ES_usuarios", expecting ")"
+in APPPATH\Models\MA_bodegasModel.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\MA_bodegasModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MA_bodegasModel')
+ 3 APPPATH\Controllers\MA_bodegas.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MA_bodegasModel')
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\MA_bodegas->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 22:12:06 --> syntax error, unexpected identifier "ES_usuarios", expecting ")"
+in APPPATH\Models\MA_bodegasModel.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\MA_bodegasModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MA_bodegasModel')
+ 3 APPPATH\Controllers\MA_bodegas.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MA_bodegasModel')
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\MA_bodegas->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 22:12:07 --> syntax error, unexpected identifier "ES_usuarios", expecting ")"
+in APPPATH\Models\MA_bodegasModel.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\MA_bodegasModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MA_bodegasModel')
+ 3 APPPATH\Controllers\MA_bodegas.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MA_bodegasModel')
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\MA_bodegas->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 22:13:04 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\MA_bodegas\formulario.php on line 38.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 4 APPPATH\Controllers\MA_bodegas.php(150): view('MA_bodegas/formulario', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->editarRegistro('1')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 22:21:31 --> syntax error, unexpected single-quoted string "|", expecting "," or ";"
+in APPPATH\Views\MA_bodegas\formulario.php on line 40.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(80): view('MA_bodegas/formulario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 22:38:53 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\MA_bodegas\formulario.php on line 38.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 4 APPPATH\Controllers\MA_bodegas.php(150): view('MA_bodegas/formulario', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->editarRegistro('1')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 22:39:11 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\MA_bodegas\formulario.php on line 38.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 4 APPPATH\Controllers\MA_bodegas.php(150): view('MA_bodegas/formulario', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->editarRegistro('1')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 22:49:56 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\MA_bodegas\formulario.php on line 38.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 4 APPPATH\Controllers\MA_bodegas.php(150): view('MA_bodegas/formulario', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->editarRegistro('1')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 22:58:27 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\MA_bodegas\formulario.php on line 38.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 4 APPPATH\Controllers\MA_bodegas.php(150): view('MA_bodegas/formulario', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->editarRegistro('1')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 22:59:28 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\MA_bodegas\formulario.php on line 38.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 4 APPPATH\Controllers\MA_bodegas.php(150): view('MA_bodegas/formulario', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->editarRegistro('1')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 22:59:44 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\MA_bodegas\formulario.php on line 38.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 4 APPPATH\Controllers\MA_bodegas.php(150): view('MA_bodegas/formulario', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->editarRegistro('1')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 23:00:15 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\MA_bodegas\formulario.php on line 38.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 4 APPPATH\Controllers\MA_bodegas.php(150): view('MA_bodegas/formulario', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->editarRegistro('2')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 23:36:25 --> Undefined variable $combo
+in APPPATH\Views\MA_bodegas\formulario.php on line 43.
+ 1 APPPATH\Views\MA_bodegas\formulario.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combo', 'APPPATH\\Views\\MA_bodegas\\formulario.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_bodegas\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 5 APPPATH\Controllers\MA_bodegas.php(80): view('MA_bodegas/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 23:58:43 --> Undefined array key "val_encargado_id"
+in APPPATH\Views\MA_bodegas\formulario.php on line 43.
+ 1 APPPATH\Views\MA_bodegas\formulario.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "val_encargado_id"', 'APPPATH\\Views\\MA_bodegas\\formulario.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_bodegas\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 5 APPPATH\Controllers\MA_bodegas.php(80): view('MA_bodegas/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

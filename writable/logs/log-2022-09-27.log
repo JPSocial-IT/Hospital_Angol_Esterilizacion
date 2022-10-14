@@ -1,0 +1,205 @@
+CRITICAL - 2022-09-27 08:04:42 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated
+in APPPATH\Controllers\MA_estado_solicitud.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'json_decode(): Passing null to parameter #1 ($json) of type string is deprecated', 'APPPATH\\Controllers\\MA_estado_solicitud.php', 30)
+ 2 APPPATH\Controllers\MA_estado_solicitud.php(30): json_decode(null, false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 10:36:01 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated
+in APPPATH\Controllers\MA_estado_solicitud.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'json_decode(): Passing null to parameter #1 ($json) of type string is deprecated', 'APPPATH\\Controllers\\MA_estado_solicitud.php', 30)
+ 2 APPPATH\Controllers\MA_estado_solicitud.php(30): json_decode(null, false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 20:03:02 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated
+in APPPATH\Controllers\MA_estado_solicitud.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'json_decode(): Passing null to parameter #1 ($json) of type string is deprecated', 'APPPATH\\Controllers\\MA_estado_solicitud.php', 30)
+ 2 APPPATH\Controllers\MA_estado_solicitud.php(30): json_decode(null, false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 20:03:06 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated
+in APPPATH\Controllers\MA_estado_solicitud.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'json_decode(): Passing null to parameter #1 ($json) of type string is deprecated', 'APPPATH\\Controllers\\MA_estado_solicitud.php', 30)
+ 2 APPPATH\Controllers\MA_estado_solicitud.php(30): json_decode(null, false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 20:07:45 --> syntax error, unexpected single-quoted string "encargado_id", expecting "]"
+in APPPATH\Controllers\MA_bodegas.php on line 140.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('MA_bodegas')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('MA_bodegas')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('MA_bodegas')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 20:14:06 --> syntax error, unexpected single-quoted string "encargado_nombre", expecting "]"
+in APPPATH\Controllers\MA_bodegas.php on line 141.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('MA_bodegas')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('MA_bodegas')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('MA_bodegas')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 20:15:30 --> syntax error, unexpected single-quoted string "encargado_nombre", expecting "]"
+in APPPATH\Controllers\MA_bodegas.php on line 141.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('MA_bodegas')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('MA_bodegas')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('MA_bodegas')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 20:15:36 --> syntax error, unexpected single-quoted string "encargado_nombre", expecting "]"
+in APPPATH\Controllers\MA_bodegas.php on line 141.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('MA_bodegas')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('MA_bodegas')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('MA_bodegas')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 20:15:38 --> syntax error, unexpected single-quoted string "encargado_nombre", expecting "]"
+in APPPATH\Controllers\MA_bodegas.php on line 141.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('MA_bodegas')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('MA_bodegas')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('MA_bodegas')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 20:15:40 --> syntax error, unexpected single-quoted string "encargado_nombre", expecting "]"
+in APPPATH\Controllers\MA_bodegas.php on line 141.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('MA_bodegas')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('MA_bodegas')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('MA_bodegas')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 20:15:52 --> syntax error, unexpected single-quoted string "encargado_nombre", expecting "]"
+in APPPATH\Controllers\MA_bodegas.php on line 141.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('MA_bodegas')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('MA_bodegas')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('MA_bodegas')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 20:16:48 --> Invalid file: ma_bodegas_model/tabla_datos.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ma_bodegas_model/tabla_datos.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ma_bodegas_model/tabla_datos', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(49): view('ma_bodegas_model/tabla_datos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->obtenerTablaRegistros()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 20:17:58 --> Invalid file: ma_bodegas_model/tabla_datos.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ma_bodegas_model/tabla_datos.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ma_bodegas_model/tabla_datos', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(49): view('ma_bodegas_model/tabla_datos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->obtenerTablaRegistros()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 20:21:38 --> Invalid file: ma_bodegas_model/tabla_datos.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ma_bodegas_model/tabla_datos.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ma_bodegas_model/tabla_datos', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(49): view('ma_bodegas_model/tabla_datos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->obtenerTablaRegistros()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:43:35 --> Invalid file: ma_bodegas_model/tabla_datos.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ma_bodegas_model/tabla_datos.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ma_bodegas_model/tabla_datos', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(49): view('ma_bodegas_model/tabla_datos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->obtenerTablaRegistros()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:45:35 --> Invalid file: ma_bodegas_model/tabla_datos.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ma_bodegas_model/tabla_datos.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ma_bodegas_model/tabla_datos', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(49): view('ma_bodegas_model/tabla_datos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->obtenerTablaRegistros()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:45:58 --> Invalid file: ma_bodegas_model/tabla_datos.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ma_bodegas_model/tabla_datos.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ma_bodegas_model/tabla_datos', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(49): view('ma_bodegas_model/tabla_datos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->obtenerTablaRegistros()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:46:07 --> Invalid file: ma_bodegas_model/tabla_datos.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ma_bodegas_model/tabla_datos.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ma_bodegas_model/tabla_datos', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(49): view('ma_bodegas_model/tabla_datos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->obtenerTablaRegistros()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:52:55 --> Invalid file: ma_bodegas_model/tabla_datos.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ma_bodegas_model/tabla_datos.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ma_bodegas_model/tabla_datos', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(49): view('ma_bodegas_model/tabla_datos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->obtenerTablaRegistros()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:53:08 --> Invalid file: ma_bodegas_model/tabla_datos.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ma_bodegas_model/tabla_datos.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ma_bodegas_model/tabla_datos', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(49): view('ma_bodegas_model/tabla_datos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->obtenerTablaRegistros()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:53:22 --> Invalid file: ma_bodegas_model/tabla_datos.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ma_bodegas_model/tabla_datos.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ma_bodegas_model/tabla_datos', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(49): view('ma_bodegas_model/tabla_datos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->obtenerTablaRegistros()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 22:11:27 --> Invalid file: ma_bodegas_model/tabla_datos.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ma_bodegas_model/tabla_datos.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ma_bodegas_model/tabla_datos', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(49): view('ma_bodegas_model/tabla_datos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->obtenerTablaRegistros()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 22:13:35 --> Invalid file: ma_bodegas_model/tabla_datos.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ma_bodegas_model/tabla_datos.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ma_bodegas_model/tabla_datos', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(49): view('ma_bodegas_model/tabla_datos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->obtenerTablaRegistros()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 22:13:53 --> Invalid file: ma_bodegas_model/tabla_datos.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ma_bodegas_model/tabla_datos.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ma_bodegas_model/tabla_datos', [], true)
+ 3 APPPATH\Controllers\MA_bodegas.php(49): view('ma_bodegas_model/tabla_datos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->obtenerTablaRegistros()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

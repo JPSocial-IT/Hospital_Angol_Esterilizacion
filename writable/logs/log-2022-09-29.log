@@ -1,0 +1,153 @@
+CRITICAL - 2022-09-29 00:01:56 --> Undefined array key "val_encargado_id"
+in APPPATH\Views\MA_bodegas\formulario.php on line 46.
+ 1 APPPATH\Views\MA_bodegas\formulario.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "val_encargado_id"', 'APPPATH\\Views\\MA_bodegas\\formulario.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_bodegas\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 5 APPPATH\Controllers\MA_bodegas.php(80): view('MA_bodegas/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 00:28:04 --> Undefined array key "val_encargado_id"
+in APPPATH\Views\MA_bodegas\formulario.php on line 69.
+ 1 APPPATH\Views\MA_bodegas\formulario.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "val_encargado_id"', 'APPPATH\\Views\\MA_bodegas\\formulario.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_bodegas\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 5 APPPATH\Controllers\MA_bodegas.php(80): view('MA_bodegas/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 00:29:22 --> Undefined array key "val_encargado_id"
+in APPPATH\Views\MA_bodegas\formulario.php on line 69.
+ 1 APPPATH\Views\MA_bodegas\formulario.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "val_encargado_id"', 'APPPATH\\Views\\MA_bodegas\\formulario.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_bodegas\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 5 APPPATH\Controllers\MA_bodegas.php(80): view('MA_bodegas/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 07:18:42 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated
+in APPPATH\Controllers\MA_bodegas.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'json_decode(): Passing null to parameter #1 ($json) of type string is deprecated', 'APPPATH\\Controllers\\MA_bodegas.php', 25)
+ 2 APPPATH\Controllers\MA_bodegas.php(25): json_decode(null, false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 12:44:01 --> Undefined variable $encargado
+in APPPATH\Views\MA_bodegas\formulario.php on line 54.
+ 1 APPPATH\Views\MA_bodegas\formulario.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $encargado', 'APPPATH\\Views\\MA_bodegas\\formulario.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_bodegas\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 5 APPPATH\Controllers\MA_bodegas.php(80): view('MA_bodegas/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 12:57:49 --> Undefined array key "txt_encargado_nombre"
+in APPPATH\Views\MA_bodegas\formulario.php on line 85.
+ 1 APPPATH\Views\MA_bodegas\formulario.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "txt_encargado_nombre"', 'APPPATH\\Views\\MA_bodegas\\formulario.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_bodegas\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 5 APPPATH\Controllers\MA_bodegas.php(80): view('MA_bodegas/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 12:59:42 --> Undefined array key "txt_encargado_nombre"
+in APPPATH\Views\MA_bodegas\formulario.php on line 84.
+ 1 APPPATH\Views\MA_bodegas\formulario.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "txt_encargado_nombre"', 'APPPATH\\Views\\MA_bodegas\\formulario.php', 84)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_bodegas\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 5 APPPATH\Controllers\MA_bodegas.php(80): view('MA_bodegas/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 13:01:23 --> Undefined array key "txt_encargado_nombre"
+in APPPATH\Views\MA_bodegas\formulario.php on line 84.
+ 1 APPPATH\Views\MA_bodegas\formulario.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "txt_encargado_nombre"', 'APPPATH\\Views\\MA_bodegas\\formulario.php', 84)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_bodegas\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 5 APPPATH\Controllers\MA_bodegas.php(80): view('MA_bodegas/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 13:03:59 --> Undefined array key "txt_encargado_nombre"
+in APPPATH\Views\MA_bodegas\formulario.php on line 84.
+ 1 APPPATH\Views\MA_bodegas\formulario.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "txt_encargado_nombre"', 'APPPATH\\Views\\MA_bodegas\\formulario.php', 84)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_bodegas\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 5 APPPATH\Controllers\MA_bodegas.php(80): view('MA_bodegas/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 13:17:34 --> Undefined variable $encargado
+in APPPATH\Views\MA_bodegas\formulario.php on line 58.
+ 1 APPPATH\Views\MA_bodegas\formulario.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $encargado', 'APPPATH\\Views\\MA_bodegas\\formulario.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\MA_bodegas\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('MA_bodegas/formulario', [], true)
+ 5 APPPATH\Controllers\MA_bodegas.php(80): view('MA_bodegas/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->agregarRegistro()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:58:47 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated
+in APPPATH\Controllers\MA_bodegas.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'json_decode(): Passing null to parameter #1 ($json) of type string is deprecated', 'APPPATH\\Controllers\\MA_bodegas.php', 25)
+ 2 APPPATH\Controllers\MA_bodegas.php(25): json_decode(null, false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 20:09:06 --> Class "App\Models\MA_serviciosModel" not found
+in APPPATH\Controllers\MA_servicios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\MA_servicios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 20:18:10 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_servicios»
+LINE 1: SELECT * FROM &quot;ES_servicios&quot; ORDER BY &quot;id&quot; ASC
+                      ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_servicios»
+LINE 1: SELECT * FROM &quot;ES_servicios&quot; ORDER BY &quot;id&quot; ASC
+                      ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 5 APPPATH\Models\MA_serviciosModel.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 6 APPPATH\Controllers\MA_servicios.php(29): App\Models\MA_serviciosModel->obtenerRegistros()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_servicios->obtenerTablaRegistros()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_servicios))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 20:18:18 --> pg_query(): Query failed: ERROR:  no existe la relación «ES_servicios»
+LINE 1: SELECT * FROM &quot;ES_servicios&quot; ORDER BY &quot;id&quot; ASC
+                      ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «ES_servicios»
+LINE 1: SELECT * FROM &quot;ES_servicios&quot; ORDER BY &quot;id&quot; ASC
+                      ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 5 APPPATH\Models\MA_serviciosModel.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 6 APPPATH\Controllers\MA_servicios.php(29): App\Models\MA_serviciosModel->obtenerRegistros()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_servicios->obtenerTablaRegistros()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_servicios))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

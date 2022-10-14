@@ -1,0 +1,612 @@
+CRITICAL - 2022-07-26 11:57:52 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2334.
+ 1 SYSTEMPATH\Database\Postgre\Builder.php(205): CodeIgniter\Database\BaseBuilder->delete('ROOTPATH\\public', null, true)
+ 2 SYSTEMPATH\Model.php(400): CodeIgniter\Database\Postgre\Builder->delete()
+ 3 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Models\EntregaTurnoModel.php(41): CodeIgniter\BaseModel->delete(null)
+ 5 APPPATH\Controllers\EntregaTurno.php(67): App\Models\EntregaTurnoModel->eliminarDatosPorId(null)
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->eliminarDatosPorId()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 11:58:53 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2334.
+ 1 SYSTEMPATH\Database\Postgre\Builder.php(205): CodeIgniter\Database\BaseBuilder->delete('ROOTPATH\\public', null, true)
+ 2 SYSTEMPATH\Model.php(400): CodeIgniter\Database\Postgre\Builder->delete()
+ 3 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Models\EntregaTurnoModel.php(41): CodeIgniter\BaseModel->delete(null)
+ 5 APPPATH\Controllers\EntregaTurno.php(67): App\Models\EntregaTurnoModel->eliminarDatosPorId(null)
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->eliminarDatosPorId()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 12:07:17 --> Call to undefined function App\Models\orderBy()
+in APPPATH\Models\EntregaTurnoModel.php on line 25.
+ 1 APPPATH\Controllers\EntregaTurno.php(27): App\Models\EntregaTurnoModel->obtenerDatos()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 12:08:23 --> Call to undefined function App\Models\findAll()
+in APPPATH\Models\EntregaTurnoModel.php on line 25.
+ 1 APPPATH\Controllers\EntregaTurno.php(27): App\Models\EntregaTurnoModel->obtenerDatos()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 12:08:52 --> Call to undefined function App\Models\orderBy()
+in APPPATH\Models\EntregaTurnoModel.php on line 25.
+ 1 APPPATH\Controllers\EntregaTurno.php(27): App\Models\EntregaTurnoModel->obtenerDatos()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 12:29:13 --> Undefined variable $db
+in APPPATH\Models\EntregaTurnoModel.php on line 27.
+ 1 APPPATH\Models\EntregaTurnoModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Models\\EntregaTurnoModel.php', 27)
+ 2 APPPATH\Controllers\EntregaTurno.php(27): App\Models\EntregaTurnoModel->obtenerDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 12:29:16 --> Undefined variable $db
+in APPPATH\Models\EntregaTurnoModel.php on line 27.
+ 1 APPPATH\Models\EntregaTurnoModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Models\\EntregaTurnoModel.php', 27)
+ 2 APPPATH\Controllers\EntregaTurno.php(27): App\Models\EntregaTurnoModel->obtenerDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 12:31:17 --> Undefined variable $db
+in APPPATH\Models\EntregaTurnoModel.php on line 27.
+ 1 APPPATH\Models\EntregaTurnoModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Models\\EntregaTurnoModel.php', 27)
+ 2 APPPATH\Controllers\EntregaTurno.php(27): App\Models\EntregaTurnoModel->obtenerDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 12:32:41 --> Undefined variable $db
+in APPPATH\Models\EntregaTurnoModel.php on line 27.
+ 1 APPPATH\Models\EntregaTurnoModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Models\\EntregaTurnoModel.php', 27)
+ 2 APPPATH\Controllers\EntregaTurno.php(27): App\Models\EntregaTurnoModel->obtenerDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 12:36:49 --> Undefined variable $table
+in APPPATH\Models\EntregaTurnoModel.php on line 28.
+ 1 APPPATH\Models\EntregaTurnoModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table', 'APPPATH\\Models\\EntregaTurnoModel.php', 28)
+ 2 APPPATH\Controllers\EntregaTurno.php(27): App\Models\EntregaTurnoModel->obtenerDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 12:37:18 --> Call to undefined function App\Models\orderBy()
+in APPPATH\Models\EntregaTurnoModel.php on line 29.
+ 1 APPPATH\Controllers\EntregaTurno.php(27): App\Models\EntregaTurnoModel->obtenerDatos()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 12:37:43 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\EntregaTurno\tabla_datos.php on line 13.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('EntregaTurno/tabla_datos', [], true)
+ 4 APPPATH\Controllers\EntregaTurno.php(33): view('EntregaTurno/tabla_datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 12:38:10 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\EntregaTurno\tabla_datos.php on line 13.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('EntregaTurno/tabla_datos', [], true)
+ 4 APPPATH\Controllers\EntregaTurno.php(33): view('EntregaTurno/tabla_datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 12:44:42 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\Postgre\Result given
+in APPPATH\Views\EntregaTurno\tabla_datos.php on line 13.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('EntregaTurno/tabla_datos', [], true)
+ 4 APPPATH\Controllers\EntregaTurno.php(33): view('EntregaTurno/tabla_datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 12:44:42 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-26 12:49:27 --> Call to undefined function App\Models\get()
+in APPPATH\Models\EntregaTurnoModel.php on line 29.
+ 1 APPPATH\Controllers\EntregaTurno.php(27): App\Models\EntregaTurnoModel->obtenerDatos()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 13:02:38 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\Postgre\Result given
+in APPPATH\Views\EntregaTurno\tabla_datos.php on line 14.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('EntregaTurno/tabla_datos', [], true)
+ 4 APPPATH\Controllers\EntregaTurno.php(33): view('EntregaTurno/tabla_datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 13:02:38 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-26 13:03:26 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\EntregaTurno\tabla_datos.php on line 14.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('EntregaTurno/tabla_datos', [], true)
+ 4 APPPATH\Controllers\EntregaTurno.php(33): view('EntregaTurno/tabla_datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 13:05:23 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\EntregaTurno\tabla_datos.php on line 14.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('EntregaTurno/tabla_datos', [], true)
+ 4 APPPATH\Controllers\EntregaTurno.php(33): view('EntregaTurno/tabla_datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 13:06:16 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\EntregaTurno\tabla_datos.php on line 14.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('EntregaTurno/tabla_datos', [], true)
+ 4 APPPATH\Controllers\EntregaTurno.php(33): view('EntregaTurno/tabla_datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 13:18:25 --> pg_query(): Query failed: ERROR:  no existe la relación «my_table»
+LINE 1: SELECT name, title, email FROM my_table
+                                       ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «my_table»
+LINE 1: SELECT name, title, email FROM my_table
+                                       ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT name, title, email FROM my_table')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT name, title, email FROM my_table')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name, title, email FROM my_table')
+ 5 APPPATH\Models\EntregaTurnoModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT name, title, email FROM my_table')
+ 6 APPPATH\Controllers\EntregaTurno.php(27): App\Models\EntregaTurnoModel->obtenerDatos()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 13:18:25 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-26 13:18:27 --> pg_query(): Query failed: ERROR:  no existe la relación «my_table»
+LINE 1: SELECT name, title, email FROM my_table
+                                       ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «my_table»
+LINE 1: SELECT name, title, email FROM my_table
+                                       ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT name, title, email FROM my_table')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT name, title, email FROM my_table')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name, title, email FROM my_table')
+ 5 APPPATH\Models\EntregaTurnoModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT name, title, email FROM my_table')
+ 6 APPPATH\Controllers\EntregaTurno.php(27): App\Models\EntregaTurnoModel->obtenerDatos()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 13:18:27 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-26 13:18:39 --> pg_query(): Query failed: ERROR:  no existe la relación «my_table»
+LINE 1: SELECT name, title, email FROM my_table
+                                       ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «my_table»
+LINE 1: SELECT name, title, email FROM my_table
+                                       ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT name, title, email FROM my_table')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT name, title, email FROM my_table')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name, title, email FROM my_table')
+ 5 APPPATH\Models\EntregaTurnoModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT name, title, email FROM my_table')
+ 6 APPPATH\Controllers\EntregaTurno.php(27): App\Models\EntregaTurnoModel->obtenerDatos()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 13:19:17 --> pg_query(): Query failed: ERROR:  no existe la relación «my_table»
+LINE 1: SELECT id, fecha_registro, descripcion FROM my_table
+                                                    ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «my_table»
+LINE 1: SELECT id, fecha_registro, descripcion FROM my_table
+                                                    ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT id, fecha_registro, descripcion FROM my_table')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT id, fecha_registro, descripcion FROM my_table')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, fecha_registro, descripcion FROM my_table')
+ 5 APPPATH\Models\EntregaTurnoModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT id, fecha_registro, descripcion FROM my_table')
+ 6 APPPATH\Controllers\EntregaTurno.php(27): App\Models\EntregaTurnoModel->obtenerDatos()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 13:19:17 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-26 13:20:02 --> pg_query(): Query failed: ERROR:  no existe la columna «descripcion»
+LINE 1: SELECT id, fecha_registro, descripcion FROM entrega_turno
+                                   ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la columna «descripcion»
+LINE 1: SELECT id, fecha_registro, descripcion FROM entrega_turno
+                                   ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT id, fecha_registro, descripcion FROM entrega_turno')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT id, fecha_registro, descripcion FROM entrega_turno')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, fecha_registro, descripcion FROM entrega_turno')
+ 5 APPPATH\Models\EntregaTurnoModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT id, fecha_registro, descripcion FROM entrega_turno')
+ 6 APPPATH\Controllers\EntregaTurno.php(27): App\Models\EntregaTurnoModel->obtenerDatos()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 13:20:02 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-26 13:20:46 --> pg_query(): Query failed: ERROR:  no existe la columna «descripcion»
+LINE 1: SELECT id, fecha_registro, descripcion FROM entrega_turno
+                                   ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la columna «descripcion»
+LINE 1: SELECT id, fecha_registro, descripcion FROM entrega_turno
+                                   ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT id, fecha_registro, descripcion FROM entrega_turno')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT id, fecha_registro, descripcion FROM entrega_turno')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, fecha_registro, descripcion FROM entrega_turno')
+ 5 APPPATH\Models\EntregaTurnoModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT id, fecha_registro, descripcion FROM entrega_turno')
+ 6 APPPATH\Controllers\EntregaTurno.php(27): App\Models\EntregaTurnoModel->obtenerDatos()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 13:20:46 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-26 13:27:20 --> pg_query(): Query failed: ERROR:  no existe la columna «descripcion»
+LINE 1: SELECT id, fecha_registro, descripcion FROM entrega_turno
+                                   ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la columna «descripcion»
+LINE 1: SELECT id, fecha_registro, descripcion FROM entrega_turno
+                                   ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT id, fecha_registro, descripcion FROM entrega_turno')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT id, fecha_registro, descripcion FROM entrega_turno')
+ 4 APPPATH\Models\EntregaTurnoModel.php(29): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, fecha_registro, descripcion FROM entrega_turno')
+ 5 APPPATH\Controllers\EntregaTurno.php(27): App\Models\EntregaTurnoModel->obtenerDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 13:27:20 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-26 13:28:55 --> pg_query(): Query failed: ERROR:  no existe la columna «descripcion»
+LINE 1: SELECT id, fecha_registro, descripcion FROM entrega_turno
+                                   ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la columna «descripcion»
+LINE 1: SELECT id, fecha_registro, descripcion FROM entrega_turno
+                                   ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT id, fecha_registro, descripcion FROM entrega_turno')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT id, fecha_registro, descripcion FROM entrega_turno')
+ 4 APPPATH\Models\EntregaTurnoModel.php(30): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, fecha_registro, descripcion FROM entrega_turno')
+ 5 APPPATH\Controllers\EntregaTurno.php(27): App\Models\EntregaTurnoModel->obtenerDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 13:28:55 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-26 13:32:57 --> pg_query(): Query failed: ERROR:  no existe la columna «descripcion»
+LINE 1: SELECT id, fecha_registro, descripcion FROM entrega_turno
+                                   ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la columna «descripcion»
+LINE 1: SELECT id, fecha_registro, descripcion FROM entrega_turno
+                                   ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT id, fecha_registro, descripcion FROM entrega_turno')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT id, fecha_registro, descripcion FROM entrega_turno')
+ 4 APPPATH\Models\EntregaTurnoModel.php(30): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, fecha_registro, descripcion FROM entrega_turno')
+ 5 APPPATH\Controllers\EntregaTurno.php(27): App\Models\EntregaTurnoModel->obtenerDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 13:32:57 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-26 15:11:44 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\Postgre\Result given
+in APPPATH\Views\EntregaTurno\tabla_datos.php on line 13.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('EntregaTurno/tabla_datos', [], true)
+ 4 APPPATH\Controllers\EntregaTurno.php(33): view('EntregaTurno/tabla_datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 15:11:44 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-26 15:11:47 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\Postgre\Result given
+in APPPATH\Views\EntregaTurno\tabla_datos.php on line 13.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('EntregaTurno/tabla_datos', [], true)
+ 4 APPPATH\Controllers\EntregaTurno.php(33): view('EntregaTurno/tabla_datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 15:11:47 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-26 15:12:01 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\Postgre\Result given
+in APPPATH\Views\EntregaTurno\tabla_datos.php on line 13.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('EntregaTurno/tabla_datos', [], true)
+ 4 APPPATH\Controllers\EntregaTurno.php(33): view('EntregaTurno/tabla_datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 15:12:29 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\Postgre\Result given
+in APPPATH\Views\EntregaTurno\tabla_datos.php on line 14.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('EntregaTurno/tabla_datos', [], true)
+ 4 APPPATH\Controllers\EntregaTurno.php(33): view('EntregaTurno/tabla_datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 15:12:29 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-26 15:15:06 --> Call to undefined method CodeIgniter\Database\Postgre\Result::getCompiledSelect()
+in APPPATH\Models\EntregaTurnoModel.php on line 29.
+ 1 APPPATH\Controllers\EntregaTurno.php(27): App\Models\EntregaTurnoModel->obtenerDatos()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 15:15:41 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\EntregaTurno\tabla_datos.php on line 14.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('EntregaTurno/tabla_datos', [], true)
+ 4 APPPATH\Controllers\EntregaTurno.php(33): view('EntregaTurno/tabla_datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 15:16:27 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\Postgre\Result given
+in APPPATH\Views\EntregaTurno\tabla_datos.php on line 14.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('EntregaTurno/tabla_datos', [], true)
+ 4 APPPATH\Controllers\EntregaTurno.php(33): view('EntregaTurno/tabla_datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 15:16:27 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-26 15:16:57 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\Postgre\Result given
+in APPPATH\Views\EntregaTurno\tabla_datos.php on line 14.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('EntregaTurno/tabla_datos', [], true)
+ 4 APPPATH\Controllers\EntregaTurno.php(33): view('EntregaTurno/tabla_datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 15:16:57 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-26 15:20:47 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\Postgre\Result given
+in APPPATH\Views\EntregaTurno\tabla_datos.php on line 14.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('EntregaTurno/tabla_datos', [], true)
+ 4 APPPATH\Controllers\EntregaTurno.php(33): view('EntregaTurno/tabla_datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 15:20:47 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-26 15:21:15 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\Postgre\Result given
+in APPPATH\Views\EntregaTurno\tabla_datos.php on line 14.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('EntregaTurno/tabla_datos', [], true)
+ 4 APPPATH\Controllers\EntregaTurno.php(33): view('EntregaTurno/tabla_datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 15:21:15 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\CLINICAANGOL_entrega_turno\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-26 15:30:40 --> Cannot use object of type stdClass as array
+in APPPATH\Views\EntregaTurno\tabla_datos.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('EntregaTurno/tabla_datos', [], true)
+ 4 APPPATH\Controllers\EntregaTurno.php(33): view('EntregaTurno/tabla_datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 15:33:36 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\EntregaTurno\tabla_datos.php on line 14.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('EntregaTurno/tabla_datos', [], true)
+ 4 APPPATH\Controllers\EntregaTurno.php(33): view('EntregaTurno/tabla_datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

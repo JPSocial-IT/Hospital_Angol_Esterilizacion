@@ -1,0 +1,178 @@
+CRITICAL - 2022-09-11 17:11:46 --> pg_query(): Query failed: ERROR:  no existe la relación «entrega_turno»
+LINE 1: SELECT * FROM entrega_turno ORDER BY id ASC
+                      ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «entrega_turno»
+LINE 1: SELECT * FROM entrega_turno ORDER BY id ASC
+                      ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT * FROM entrega_turno ORDER BY id ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM entrega_turno ORDER BY id ASC')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM entrega_turno ORDER BY id ASC')
+ 5 APPPATH\Models\EntregaTurnoModel.php(27): CodeIgniter\Database\BaseConnection->query('SELECT * FROM entrega_turno ORDER BY id ASC')
+ 6 APPPATH\Controllers\EntregaTurno.php(27): App\Models\EntregaTurnoModel->obtenerDatos()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-11 17:12:45 --> pg_query(): Query failed: ERROR:  el valor nulo en la columna «IdUsuario» de la relación «ss_usuarios» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (null, 11.111.111-1, Zlavtko, Vrancic, Mihailovic, zlavtko@gmail.com, 2022-09-11 17:12:45-03, t).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  el valor nulo en la columna «IdUsuario» de la relación «ss_usuarios» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (null, 11.111.111-1, Zlavtko, Vrancic, Mihailovic, zlavtko@gmail.com, 2022-09-11 17:12:45-03, t).', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (\'11.111.111-1\', \'Zlavtko\', \'Vrancic\', \'Mihailovic\', \'zlavtko@gmail.com\', \'2022-09-11 17:12:45\', \'t\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (\'11.111.111-1\', \'Zlavtko\', \'Vrancic\', \'Mihailovic\', \'zlavtko@gmail.com\', \'2022-09-11 17:12:45\', \'t\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (\'11.111.111-1\', \'Zlavtko\', \'Vrancic\', \'Mihailovic\', \'zlavtko@gmail.com\', \'2022-09-11 17:12:45\', \'t\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (:Rut:, :Nombre:, :ApellidoPaterno:, :ApellidoMaterno:, :Email:, :FechaRegistro:, :Activo:)', [...], false)
+ 6 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Models\UsuariosModel.php(39): CodeIgniter\Model->insert([...])
+10 APPPATH\Controllers\Usuarios.php(78): App\Models\UsuariosModel->agregarUsuario([...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->agregarUsuarioGuardar()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-11 17:14:20 --> pg_query(): Query failed: ERROR:  el valor nulo en la columna «IdUsuario» de la relación «ss_usuarios» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (null, 11.111.111-1, Zlavtko, Vrancic, Mihailovic, zlavtko@gmail.com, 2022-09-11 17:14:20-03, t).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  el valor nulo en la columna «IdUsuario» de la relación «ss_usuarios» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (null, 11.111.111-1, Zlavtko, Vrancic, Mihailovic, zlavtko@gmail.com, 2022-09-11 17:14:20-03, t).', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (\'11.111.111-1\', \'Zlavtko\', \'Vrancic\', \'Mihailovic\', \'zlavtko@gmail.com\', \'2022-09-11 17:14:20\', \'t\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (\'11.111.111-1\', \'Zlavtko\', \'Vrancic\', \'Mihailovic\', \'zlavtko@gmail.com\', \'2022-09-11 17:14:20\', \'t\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (\'11.111.111-1\', \'Zlavtko\', \'Vrancic\', \'Mihailovic\', \'zlavtko@gmail.com\', \'2022-09-11 17:14:20\', \'t\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (:Rut:, :Nombre:, :ApellidoPaterno:, :ApellidoMaterno:, :Email:, :FechaRegistro:, :Activo:)', [...], false)
+ 6 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Models\UsuariosModel.php(39): CodeIgniter\Model->insert([...])
+10 APPPATH\Controllers\Usuarios.php(78): App\Models\UsuariosModel->agregarUsuario([...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->agregarUsuarioGuardar()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-11 17:14:55 --> pg_query(): Query failed: ERROR:  el valor nulo en la columna «IdUsuario» de la relación «ss_usuarios» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (null, null, null, null, null, null, 2022-09-11 17:14:55-03, t).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  el valor nulo en la columna «IdUsuario» de la relación «ss_usuarios» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (null, null, null, null, null, null, 2022-09-11 17:14:55-03, t).', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (NULL, NULL, NULL, NULL, NULL, \'2022-09-11 17:14:55\', \'t\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (NULL, NULL, NULL, NULL, NULL, \'2022-09-11 17:14:55\', \'t\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (NULL, NULL, NULL, NULL, NULL, \'2022-09-11 17:14:55\', \'t\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (:Rut:, :Nombre:, :ApellidoPaterno:, :ApellidoMaterno:, :Email:, :FechaRegistro:, :Activo:)', [...], false)
+ 6 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Models\UsuariosModel.php(39): CodeIgniter\Model->insert([...])
+10 APPPATH\Controllers\Usuarios.php(78): App\Models\UsuariosModel->agregarUsuario([...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->agregarUsuarioGuardar()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-11 19:30:06 --> pg_query(): Query failed: ERROR:  el valor nulo en la columna «IdUsuario» de la relación «ss_usuarios» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (null, 11.111.111-1, Zlavtko, Vrancic, Mihailovic, zlavtko@gmail.com, 2022-09-11 19:30:06-03, t).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  el valor nulo en la columna «IdUsuario» de la relación «ss_usuarios» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (null, 11.111.111-1, Zlavtko, Vrancic, Mihailovic, zlavtko@gmail.com, 2022-09-11 19:30:06-03, t).', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (\'11.111.111-1\', \'Zlavtko\', \'Vrancic\', \'Mihailovic\', \'zlavtko@gmail.com\', \'2022-09-11 19:30:06\', \'t\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (\'11.111.111-1\', \'Zlavtko\', \'Vrancic\', \'Mihailovic\', \'zlavtko@gmail.com\', \'2022-09-11 19:30:06\', \'t\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (\'11.111.111-1\', \'Zlavtko\', \'Vrancic\', \'Mihailovic\', \'zlavtko@gmail.com\', \'2022-09-11 19:30:06\', \'t\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (:Rut:, :Nombre:, :ApellidoPaterno:, :ApellidoMaterno:, :Email:, :FechaRegistro:, :Activo:)', [...], false)
+ 6 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Models\UsuariosModel.php(39): CodeIgniter\Model->insert([...])
+10 APPPATH\Controllers\Usuarios.php(78): App\Models\UsuariosModel->agregarUsuario([...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->agregarUsuarioGuardar()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-11 19:30:23 --> pg_query(): Query failed: ERROR:  el valor nulo en la columna «IdUsuario» de la relación «ss_usuarios» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (null, null, null, null, null, null, 2022-09-11 19:30:23-03, t).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  el valor nulo en la columna «IdUsuario» de la relación «ss_usuarios» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (null, null, null, null, null, null, 2022-09-11 19:30:23-03, t).', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (NULL, NULL, NULL, NULL, NULL, \'2022-09-11 19:30:23\', \'t\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (NULL, NULL, NULL, NULL, NULL, \'2022-09-11 19:30:23\', \'t\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (NULL, NULL, NULL, NULL, NULL, \'2022-09-11 19:30:23\', \'t\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (:Rut:, :Nombre:, :ApellidoPaterno:, :ApellidoMaterno:, :Email:, :FechaRegistro:, :Activo:)', [...], false)
+ 6 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Models\UsuariosModel.php(39): CodeIgniter\Model->insert([...])
+10 APPPATH\Controllers\Usuarios.php(78): App\Models\UsuariosModel->agregarUsuario([...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->agregarUsuarioGuardar()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-11 19:36:32 --> pg_query(): Query failed: ERROR:  el valor nulo en la columna «IdUsuario» de la relación «ss_usuarios» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (null, 11.111.111-1, Zlavtko, Vrancic, Mihailovic, zlavtko@gmail.com, 2022-09-11 19:36:32-03, t).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  el valor nulo en la columna «IdUsuario» de la relación «ss_usuarios» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (null, 11.111.111-1, Zlavtko, Vrancic, Mihailovic, zlavtko@gmail.com, 2022-09-11 19:36:32-03, t).', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (\'11.111.111-1\', \'Zlavtko\', \'Vrancic\', \'Mihailovic\', \'zlavtko@gmail.com\', \'2022-09-11 19:36:32\', \'t\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (\'11.111.111-1\', \'Zlavtko\', \'Vrancic\', \'Mihailovic\', \'zlavtko@gmail.com\', \'2022-09-11 19:36:32\', \'t\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (\'11.111.111-1\', \'Zlavtko\', \'Vrancic\', \'Mihailovic\', \'zlavtko@gmail.com\', \'2022-09-11 19:36:32\', \'t\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (:Rut:, :Nombre:, :ApellidoPaterno:, :ApellidoMaterno:, :Email:, :FechaRegistro:, :Activo:)', [...], false)
+ 6 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Models\UsuariosModel.php(39): CodeIgniter\Model->insert([...])
+10 APPPATH\Controllers\Usuarios.php(78): App\Models\UsuariosModel->agregarUsuario([...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->agregarUsuarioGuardar()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-11 19:36:42 --> pg_query(): Query failed: ERROR:  el valor nulo en la columna «IdUsuario» de la relación «ss_usuarios» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (null, null, null, null, null, null, 2022-09-11 19:36:42-03, t).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  el valor nulo en la columna «IdUsuario» de la relación «ss_usuarios» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (null, null, null, null, null, null, 2022-09-11 19:36:42-03, t).', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (NULL, NULL, NULL, NULL, NULL, \'2022-09-11 19:36:42\', \'t\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (NULL, NULL, NULL, NULL, NULL, \'2022-09-11 19:36:42\', \'t\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (NULL, NULL, NULL, NULL, NULL, \'2022-09-11 19:36:42\', \'t\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (:Rut:, :Nombre:, :ApellidoPaterno:, :ApellidoMaterno:, :Email:, :FechaRegistro:, :Activo:)', [...], false)
+ 6 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Models\UsuariosModel.php(39): CodeIgniter\Model->insert([...])
+10 APPPATH\Controllers\Usuarios.php(78): App\Models\UsuariosModel->agregarUsuario([...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->agregarUsuarioGuardar()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-11 19:36:50 --> pg_query(): Query failed: ERROR:  el valor nulo en la columna «IdUsuario» de la relación «ss_usuarios» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (null, null, null, null, null, null, 2022-09-11 19:36:50-03, t).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  el valor nulo en la columna «IdUsuario» de la relación «ss_usuarios» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (null, null, null, null, null, null, 2022-09-11 19:36:50-03, t).', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (NULL, NULL, NULL, NULL, NULL, \'2022-09-11 19:36:50\', \'t\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (NULL, NULL, NULL, NULL, NULL, \'2022-09-11 19:36:50\', \'t\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (NULL, NULL, NULL, NULL, NULL, \'2022-09-11 19:36:50\', \'t\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (:Rut:, :Nombre:, :ApellidoPaterno:, :ApellidoMaterno:, :Email:, :FechaRegistro:, :Activo:)', [...], false)
+ 6 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Models\UsuariosModel.php(39): CodeIgniter\Model->insert([...])
+10 APPPATH\Controllers\Usuarios.php(78): App\Models\UsuariosModel->agregarUsuario([...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->agregarUsuarioGuardar()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-11 19:55:46 --> pg_query(): Query failed: ERROR:  el valor nulo en la columna «IdUsuario» de la relación «ss_usuarios» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (null, 11.111.111-1, Zlavtko, Vrancic, Mihailovic, zlavtko@gmail.com, 2022-09-11 19:55:46-03, t).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  el valor nulo en la columna «IdUsuario» de la relación «ss_usuarios» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (null, 11.111.111-1, Zlavtko, Vrancic, Mihailovic, zlavtko@gmail.com, 2022-09-11 19:55:46-03, t).', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (\'11.111.111-1\', \'Zlavtko\', \'Vrancic\', \'Mihailovic\', \'zlavtko@gmail.com\', \'2022-09-11 19:55:46\', \'t\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (\'11.111.111-1\', \'Zlavtko\', \'Vrancic\', \'Mihailovic\', \'zlavtko@gmail.com\', \'2022-09-11 19:55:46\', \'t\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (\'11.111.111-1\', \'Zlavtko\', \'Vrancic\', \'Mihailovic\', \'zlavtko@gmail.com\', \'2022-09-11 19:55:46\', \'t\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ss_usuarios" ("Rut", "Nombre", "ApellidoPaterno", "ApellidoMaterno", "Email", "FechaRegistro", "Activo") VALUES (:Rut:, :Nombre:, :ApellidoPaterno:, :ApellidoMaterno:, :Email:, :FechaRegistro:, :Activo:)', [...], false)
+ 6 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Models\UsuariosModel.php(39): CodeIgniter\Model->insert([...])
+10 APPPATH\Controllers\Usuarios.php(83): App\Models\UsuariosModel->agregarUsuario([...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->agregarUsuarioGuardar()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

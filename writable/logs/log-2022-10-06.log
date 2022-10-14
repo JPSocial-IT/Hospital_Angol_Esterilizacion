@@ -1,0 +1,88 @@
+CRITICAL - 2022-10-06 13:12:21 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated
+in APPPATH\Controllers\MA_bodegas.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'json_decode(): Passing null to parameter #1 ($json) of type string is deprecated', 'APPPATH\\Controllers\\MA_bodegas.php', 25)
+ 2 APPPATH\Controllers\MA_bodegas.php(25): json_decode(null, false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_bodegas->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_bodegas))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-06 15:05:35 --> pg_query(): Query failed: ERROR:  relation &quot;ES_servicios&quot; does not exist
+LINE 1: SELECT * FROM &quot;ES_servicios&quot; ORDER BY &quot;id&quot; ASC
+                      ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  relation &quot;ES_servicios&quot; does not exist
+LINE 1: SELECT * FROM &quot;ES_servicios&quot; ORDER BY &quot;id&quot; ASC
+                      ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 5 APPPATH\Models\MA_serviciosModel.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 6 APPPATH\Controllers\MA_servicios.php(29): App\Models\MA_serviciosModel->obtenerRegistros()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_servicios->obtenerTablaRegistros()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_servicios))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-06 15:05:40 --> pg_query(): Query failed: ERROR:  relation &quot;ES_equipo_lavado_automatico&quot; does not exist
+LINE 1: SELECT * FROM &quot;ES_equipo_lavado_automatico&quot; ORDER BY &quot;id&quot; AS...
+                      ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  relation &quot;ES_equipo_lavado_automatico&quot; does not exist
+LINE 1: SELECT * FROM &quot;ES_equipo_lavado_automatico&quot; ORDER BY &quot;id&quot; AS...
+                      ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT * FROM "ES_equipo_lavado_automatico" ORDER BY "id" ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM "ES_equipo_lavado_automatico" ORDER BY "id" ASC')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM "ES_equipo_lavado_automatico" ORDER BY "id" ASC')
+ 5 APPPATH\Models\MA_equipos_lavado_automaticoModel.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM "ES_equipo_lavado_automatico" ORDER BY "id" ASC')
+ 6 APPPATH\Controllers\MA_equipos_lavado_automatico.php(29): App\Models\MA_equipos_lavado_automaticoModel->obtenerRegistros()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->obtenerTablaRegistros()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-06 21:21:37 --> pg_query(): Query failed: ERROR:  relation &quot;ES_servicios&quot; does not exist
+LINE 1: SELECT * FROM &quot;ES_servicios&quot; ORDER BY &quot;id&quot; ASC
+                      ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  relation &quot;ES_servicios&quot; does not exist
+LINE 1: SELECT * FROM &quot;ES_servicios&quot; ORDER BY &quot;id&quot; ASC
+                      ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 5 APPPATH\Models\MA_serviciosModel.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 6 APPPATH\Controllers\MA_servicios.php(29): App\Models\MA_serviciosModel->obtenerRegistros()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_servicios->obtenerTablaRegistros()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_servicios))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-06 21:28:36 --> pg_query(): Query failed: ERROR:  relation &quot;ES_servicios&quot; does not exist
+LINE 1: SELECT * FROM &quot;ES_servicios&quot; ORDER BY &quot;id&quot; ASC
+                      ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  relation &quot;ES_servicios&quot; does not exist
+LINE 1: SELECT * FROM &quot;ES_servicios&quot; ORDER BY &quot;id&quot; ASC
+                      ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 5 APPPATH\Models\MA_serviciosModel.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 6 APPPATH\Controllers\MA_servicios.php(29): App\Models\MA_serviciosModel->obtenerRegistros()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_servicios->obtenerTablaRegistros()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_servicios))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-06 21:28:52 --> pg_query(): Query failed: ERROR:  relation &quot;ES_servicios&quot; does not exist
+LINE 1: SELECT * FROM &quot;ES_servicios&quot; ORDER BY &quot;id&quot; ASC
+                      ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  relation &quot;ES_servicios&quot; does not exist
+LINE 1: SELECT * FROM &quot;ES_servicios&quot; ORDER BY &quot;id&quot; ASC
+                      ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 5 APPPATH\Models\MA_serviciosModel.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM "ES_servicios" ORDER BY "id" ASC')
+ 6 APPPATH\Controllers\MA_servicios.php(29): App\Models\MA_serviciosModel->obtenerRegistros()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_servicios->obtenerTablaRegistros()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_servicios))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

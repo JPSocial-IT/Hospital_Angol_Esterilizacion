@@ -1,0 +1,30 @@
+CRITICAL - 2022-10-04 07:09:49 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated
+in APPPATH\Controllers\MA_equipos_lavado_automatico.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'json_decode(): Passing null to parameter #1 ($json) of type string is deprecated', 'APPPATH\\Controllers\\MA_equipos_lavado_automatico.php', 22)
+ 2 APPPATH\Controllers\MA_equipos_lavado_automatico.php(22): json_decode(null, false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_equipos_lavado_automatico->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_equipos_lavado_automatico))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 07:24:31 --> syntax error, unexpected single-quoted string "Search", expecting "]"
+in APPPATH\Language\es\Files.php on line 18.
+ 1 SYSTEMPATH\Language\Language.php(223): CodeIgniter\Language\Language->requireFile('Language/es/Files.php')
+ 2 SYSTEMPATH\Language\Language.php(164): CodeIgniter\Language\Language->load('Files', 'es')
+ 3 SYSTEMPATH\Language\Language.php(99): CodeIgniter\Language\Language->parseLine('Mantenedor Estados Solicitudes', 'es')
+ 4 SYSTEMPATH\Common.php(753): CodeIgniter\Language\Language->getLine('Files.Mantenedor Estados Solicitudes', [])
+ 5 APPPATH\Views\partials\title-meta.php(2): lang('Files.Mantenedor Estados Solicitudes')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\partials\\title-meta.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('partials/title-meta', [], true)
+ 9 APPPATH\Controllers\MA_estado_solicitud.php(28): view('partials/title-meta', [...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 07:25:44 --> Undefined variable $row
+in APPPATH\Controllers\MA_estado_solicitud.php on line 253.
+ 1 APPPATH\Controllers\MA_estado_solicitud.php(253): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Controllers\\MA_estado_solicitud.php', 253)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\MA_estado_solicitud->eliminarRegistroConfirmar('18')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MA_estado_solicitud))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

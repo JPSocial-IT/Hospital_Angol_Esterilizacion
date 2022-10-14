@@ -1,0 +1,23 @@
+CRITICAL - 2022-07-27 12:27:33 --> Cannot redeclare App\Models\EntregaTurnoModel::obtenerDatos()
+in APPPATH\Models\EntregaTurnoModel.php on line 39.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-27 12:27:50 --> Cannot access offset of type string on string
+in APPPATH\Views\EntregaTurno\tabla_datos.php on line 18.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('EntregaTurno/tabla_datos', [], true)
+ 4 APPPATH\Controllers\EntregaTurno.php(33): view('EntregaTurno/tabla_datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->obtenerTablaDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-27 12:38:40 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Models\EntregaTurnoModel.php(54): CodeIgniter\Model->update('7', [...])
+ 4 APPPATH\Controllers\EntregaTurno.php(58): App\Models\EntregaTurnoModel->actualizarDatosPorId('7', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\EntregaTurno->actualizarDatosPorId()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntregaTurno))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
